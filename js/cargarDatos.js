@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(response => response.json())
     .then(data => {
       // Listado de secciones que podría tener un distrito
-      const secciones = ["atractivos", "actividades", "gastronomia"];
+      const secciones = ["atractivos", "actividades", "gastronomia","danzas"];
 
       secciones.forEach(sec => {
         if (data[sec] && data[sec].length > 0) {

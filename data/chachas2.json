@@ -39,6 +39,15 @@
       "descripcion": "Del 13 al 19 de julio, ven y disfruta de una semana llena de: Fe y devoción, Música , Corridas de toros, Gastronomía típica y Actividades culturales y artísticas"
     }
   ],
+  "danzas": [
+    {
+      "titulo" :"El Sirwiy",
+      "img": "../img/sirwiy.jpg",
+      "alt": "El Sirwiy",
+      "descripcion": "El Sirwiy es una danza del distrito de Chachas, Arequipa, fue declarado Patrimonio Cultural de la Nación en marzo de 2025 por el Ministerio de Cultura del Perú, según la resolución viceministerial Nº 000069-2025-VMPCI/MC. Esta manifestación cultural está vinculada a la siembra del maíz, las faenas colectivas, rituales y cantos que fortalecen la identidad de la comunidad y preservan un alimento ancestral. "
+    }
+
+  ],
   "gastronomia":[
     {
         "titulo":"Gastronomía local",

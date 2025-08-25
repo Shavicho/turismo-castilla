@@ -327,6 +327,34 @@ nav hr {
   }
 }
 
+.autor {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* espacio entre imagen y texto */
+}
+
+.avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* hace el círculo */
+  object-fit: cover; /* recorta la foto dentro del círculo */
+  border: 2px solid #020202; /* borde opcional */
+}
+
+.avatar .nombre {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
 
 
 
