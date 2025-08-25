@@ -159,6 +159,29 @@ a:hover .distrito {
 }
 
 
+/* Ajuste extra para móviles */
+@media (max-width: 768px) {
+  .tooltip {
+    max-width: 90%;   /* ocupa casi todo el ancho */
+    font-size: 0.9rem;
+    text-align: center;
+    left: 50% !important;  /* forzar centrado */
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  .tooltip-contenido {
+    flex-direction: column; /* texto e imagen apilados en vertical */
+    align-items: center;
+  }
+
+  .tooltip-contenido img {
+    width: 100px; /* más pequeño para que entre */
+  }
+}
+
+
+
 /* estilos de las palabras*/
 h1 {
   font-size: 36px;
