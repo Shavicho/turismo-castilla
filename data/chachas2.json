@@ -1,0 +1,50 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Laguna de Chachas",
+      "img": "../img/laguna de chachas.png",
+      "alt": "Laguna de Chachas",
+      "descripcion": "Se encuentra en el distrito de Chachas, al pie de la campiña del pueblo de Chachas, y forma parte del Geoparque Colca y Volcanes de Andagua. "    
+    },
+    {
+        "titulo":"Mirador de Jojolloche",
+        "img": "../img/mirador de jojolloche.jpg",
+        "alt": "Mirador de Jojolloche",
+        "descripcion": "Desde este mirador se puede apreciar el pueblo, la laguna de Chachas, el valle de los volcanes y la catarata de Challahuire. "
+    },
+    {
+        "titulo":"Catarata de Challahuire",
+        "img": "../img/catarata de callahuire.jpg",
+        "alt": "Catarata de Challahuire",
+        "descripcion": "Una impresionante caída de agua que forma parte del paisaje natural de Chachas. "
+    },
+    {
+        "titulo":"Templo San Pedro",
+        "img": "../img/templo de san pedro.png",
+        "alt": "Templo San Pedro",
+        "descripcion": "Construido con piedras labradas, destaca por su arquitectura y la presencia de una campana del año 1631. "
+    },
+    {
+        "titulo":"Andenerías",
+        "img": "../img/andenerias.jpg",
+        "alt": "Andenerías",
+        "descripcion": "Terrazas agrícolas que muestran la habilidad de los antiguos pobladores para cultivar en terrenos inclinados. "
+    }
+  ],
+  "actividades": [
+    {
+      "titulo": "Fiesta Patronal  Virgen del  Carmen",
+      "img": "../img/virgen del carmen.jpg",
+      "alt": "Fiesta Patronal  Virgen del  Carmen",
+      "descripcion": "Del 13 al 19 de julio, ven y disfruta de una semana llena de: Fe y devoción, Música , Corridas de toros, Gastronomía típica y Actividades culturales y artísticas"
+    }
+  ],
+  "gastronomia":[
+    {
+        "titulo":"Gastronomía local",
+        "img": "../img/cuy chactado.jpg",
+        "alt": "Gastronomía local",
+        "descripcion": "Se basa en plantas nativas y ofrece platos típicos de la región. "
+    }
+  ]
+}

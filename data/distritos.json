@@ -1,0 +1,87 @@
+{
+  "aplao": {
+    "titulo": "Aplao",
+    "descripcion": "Capital de la provincia de Castilla, ubicada en el valle de Majes, conocida por su producción vitivinícola y de pisco, con paisajes de cañones y petroglifos.",
+    "imagen": "../img/aplao.jpg",
+    "url":"distritos/aplao.html"
+  },
+  "andahua": {
+    "titulo": "Andahua",
+    "descripcion": "Distrito que forma parte de Castilla Alta, famoso por el valle de los volcanes y su geología única.",
+    "imagen": "../img/andagua.jpg",
+    "url":"distritos/andagua.html"
+  },
+  "ayo": {
+    "titulo": "Ayo",
+    "descripcion": "Un distrito pequeño con paisajes de altiplano y cultura rural ancestral.",
+    "imagen": "../img/ayo.jpg",
+    "url":"distritos/ayo.html"
+  },
+  "chilcaymarca": {
+    "titulo": "Chilcaymarca",
+    "descripcion": "Distrito alto andino con clima frío y marcadas tradiciones campesinas.",
+    "imagen": "../img/chilcaymarca.jpg",
+    "url":"distritos/chilcaymarca.html"
+  },
+  "choco": {
+    "titulo": "Choco",
+    "descripcion": "Zona rural de altiplano con paisajes tranquilos y comunidades agrícolas.",
+    "imagen": "../img/choco.jpg",
+    "url":"distritos/choco.html"
+  },
+  "huancarqui": {
+    "titulo": "Huancarqui",
+    "descripcion": "Distrito ubicado en el valle de Castilla Baja, con una importante actividad agrícola.",
+    "imagen": "../img/huancarqui.jpg",
+    "url":"distritos/huancarqui.html"
+  },
+  "machaguay": {
+    "titulo": "Machaguay",
+    "descripcion": "Distrito de altiplano con poblaciones pequeñas y herencia campesina.",
+    "imagen": "../img/machahuay.jpg",
+    "url":"distritos/machaguay.html"
+  },
+  "orcopampa": {
+    "titulo": "Orcopampa",
+    "descripcion": "Ubicado en altura, destaca por las actividades mineras y su entorno andino.",
+    "imagen": "../img/orcopampa.png",
+    "url":"distritos/orcopampa.html"
+  },
+  "pampacolca": {
+    "titulo": "Pampacolca",
+    "descripcion": "Zona de altiplano con vestigios arqueológicos y tradición agrícola.",
+    "imagen": "../img/pampacolca.jpg",
+    "url":"distritos/pampacolca.html"
+  },
+  "tipan": {
+    "titulo": "Tipán",
+    "descripcion": "Distrito agrícola rodeado de paisajes interandinos templados.",
+    "imagen": "../img/tipan.jpg",
+    "url":"distritos/tipan.html"
+  },
+  "unon": {
+    "titulo": "Uñón",
+    "descripcion": "Pequeño distrito de alta montaña, con una población reducida y paisajes tranquilos.",
+    "imagen": "../img/uñon.png",
+    "url":"distritos/uñon.html"
+  },
+  "uraca": {
+    "titulo": "Uraca-Corire",
+    "descripcion": "Distrito ubicado en el valle de Majes, con historia preincaica y petroglifos como su principal atractivo.",
+    "imagen": "../img/corire.png",
+    "url":"distritos/uraca.html"
+  },
+  "viraco": {
+    "titulo": "Viraco",
+    "descripcion": "Distrito de Castilla Media, con tradiciones culturales y festividades religiosas.",
+    "imagen": "../img/viraco.jpg",
+    "url":"distritos/viraco.html"
+  },
+  "chachas": {
+    "titulo": "Chachas",
+    "descripcion": "Conocido como 'La Perla de Castilla', es famoso por su laguna pintoresca y tradiciones andinas.",
+    "imagen": "../img/chachas.jpg",
+    "url":"distritos/chachas2.html"
+  }
+}
+

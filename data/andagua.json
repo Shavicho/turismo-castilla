@@ -1,0 +1,36 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Valle de los Volcanes",
+      "img": "../img/valle de los volcanes.jpg",
+      "alt": "valle de los volcanes",
+      "descripcion": "Un paisaje único con numerosos volcanes de escoria basáltica, conos y domos de lava."    
+    },
+    {
+        "titulo":"Volcanes Mellizos",
+        "img": "../img/volcanes mellizos.jpg",
+        "alt": "volcanes mellizos",
+        "descripcion": "Dos volcanes cercanos al pueblo, accesibles a pie o en vehículo, considerados guardianes de Andagua. "
+    },
+    {
+        "titulo":"Antaymarca",
+        "img": "../img/antaymarca.jpg",
+        "alt": "antaymarca",
+        "descripcion": "Ruinas arqueológicas con restos de construcciones prehispánicas, ubicadas cerca de Andagua. "
+    }
+  ],
+  "actividades": [
+    {
+      "titulo": "Rutas de senderismo y trekking",
+      "img": "../img/trekking.jpg",
+      "alt": "Rutas de senderismo y trekking",
+      "descripcion": "Oportunidades para explorar el valle y sus formaciones volcánicas, como el ascenso al Volcán Puca Mauras o el recorrido alrededor de la Laguna de Chachas."
+    },
+    {
+      "titulo": "Fiesta de la Virgen de la Asunta",
+      "img": "../img/fiesta de la virgen de asunta.jpg",
+      "alt": "Fiesta de la Virgen de la Asunta",
+      "descripcion": "Una de las principales fiestas patronales del distrito de Andagua, provincia de Castilla, Región Arequipa, es la Festividad de la Virgen de la Asunta, que se celebra del 10 al 18 de agosto, siendo su día central el día 15."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+/* Estilos básicos de la navbar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+
+.navbar-nav li {
+  margin: 0.3rem 0; /* espacio entre elementos en móvil */
+}
+
+/* Ajuste de enlaces */
+.navbar-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1rem; /* espacio interno del enlace */
+  border-radius: 5px;    /* esquinas suaves al hacer hover */
+  display: block;        /* para que el padding funcione bien */
+}
+
+.navbar-nav a.active {
+  color: #007bff;
+}
+
+/* Botón de menú para móvil */
+.navbar-toggler {
+  display: none;
+  flex-direction: column;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.navbar-toggler span {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  display: block;
+}
+
+/* Efecto hover */
+.navbar-nav a:hover {
+  background-color: #e0e0e0; /* color del cuadro al pasar mouse */
+  color: #007bff;
+}
+
+/* Responsive para móvil */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+  .navbar-nav.show {
+    display: flex;
+  }
+  .navbar-nav li {
+    margin: 0.2rem 0;  /* margen más pequeño en móvil */
+  }
+  .navbar-toggler {
+    display: flex;
+  }
+}
+
+.indice {
+  background: rgb(225, 247, 248);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-left: 80px;
+}
+
+.indice h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.indice ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.indice li {
+  margin-bottom: 10px; /* Separación entre elementos */
+}
+
+.indice a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 2px solid transparent; /* Borde transparente para evitar que se mueva */
+  box-sizing: border-box; /* Incluye borde en el tamaño del elemento */
+  transition: all 0.2s ease;
+}
+
+.indice a:hover {
+  border-color: black; /* Solo cambia el color del borde */
+  background: #f0f0f0; /* Fondo ligero opcional */
+}
+
+/* --- NAVBAR más fluido en móvil --- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap; /* permite que los elementos bajen si no caben */
+  }
+
+  .navbar-nav {
+    position: absolute;     /* flotante */
+    top: 60px;              /* debajo de la navbar */
+    left: 0;
+    width: 100%;            /* que ocupe todo el ancho */
+    background-color: #f8f9fa;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .navbar-nav li {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav a {
+    width: 100%;
+  }
+}
+
+/* --- INDICE más responsive --- */
+@media (max-width: 768px) {
+  .indice {
+    margin: 20px auto;   /* centrado */
+    width: 90%;          /* ocupa casi todo el ancho */
+    display: block;      /* se apila, no flotante */
+  }
+}
+
+
+

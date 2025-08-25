@@ -1,0 +1,24 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Iglesia de Chilcaymarca",
+      "img": "../img/iglesia de chilcaymarca.jpg",
+      "alt": "Iglesia de Chilcaymarca",
+      "descripcion": "Un lugar de interés religioso y arquitectónico. "    
+    },
+    {
+        "titulo":"Bosque de piedras de Sayasaya",
+        "img": "../img/sayasaya.jpg",
+        "alt": "Bosque de piedras de Sayasaya",
+        "descripcion": "Un atractivo natural único, también mencionado en la zona. La imagen mostrada es referencial y no corresponde directamente al lugar. "
+    }
+  ],
+  "actividades": [
+    {
+      "titulo": "Fiesta patronal de Chilcaymarca, en honor a San Santiago Apóstol.",
+      "img": "../img/fiesta patronal de chilcaymarca.jpg",
+      "alt": "Fiesta patronal de Chilcaymarca",
+      "descripcion": "Se celebra con actividades costumbristas y festejos que incluyen actos religiosos y profanos. Las festividades suelen incluir misas, procesiones, corridas de toros, bailes y ferias."
+    }
+  ]
+}

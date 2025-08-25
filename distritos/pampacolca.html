@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pampacolca</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/cargarDatos.js" defer></script> <!-- 👈 solo un script general -->
+</head>
+<body data-json="../data/pampacolca.json" data-distrito="Pampacolca">
+  <!-- Barra de navegacion -->
+    <nav class="navbar">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/Logo-Castilla.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" id="toggle-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navbar-nav" id="menu">
+        <li><a class="nav-link active" href="../index.html">Inicio</a></li>
+        <li><a class="nav-link" href="../historia.html">Historia</a></li>
+        <li><a class="nav-link" href="../distritos.html">Distritos</a></li>
+      </ul>
+    </nav>
+    
+  <main>
+    <h1 id="titulo-distrito"></h1>
+    <p class="contenidoP" >En Pampacolca, un distrito en la provincia de Castilla, Arequipa, puedes encontrar varios lugares turísticos interesantes. Entre ellos, destacan el Cerro de Marca, las Ruinas de Maucallacta, las Aguas Termales, la Laguna de Pallacocha y los Puyas de Raimondi. Además, Pampacolca forma parte de un circuito turístico que incluye Andagua con sus volcanes y Cotahuasi con sus cataratas, según un artículo sobre el aniversario de Pampacolca en pampacolca.com. </p>
+
+    <!-- Menú de navegación interno -->
+    <nav class="indice">
+      <h3>Indice</h3>
+      <hr>
+      <ul>
+        <li><a href="#atractivos">&#x2192;Atractivos Turísticos</a></li>
+      </ul>
+    </nav>
+
+    <section id="atractivos">
+      <h2>Atractivos:</h2>
+      <div id="atractivos-container"></div>
+    </section>
+
+  </main>
+</body>
+</html>

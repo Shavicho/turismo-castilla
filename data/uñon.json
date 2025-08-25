@@ -1,0 +1,18 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Santuario de Uñón",
+      "img": "../img/santuario de uñon.jpg",
+      "alt": "Santuario de Uñón",
+      "descripcion": "Un pueblo pintoresco con una fuerte tradición religiosa, especialmente durante la celebración de la Virgen del Rosario en octubre."    
+    }
+  ],
+  "actividades": [
+    {
+      "titulo": "Fiesta de la Virgen del Rosario",
+      "img": "../img/fiesta de la virgen del rosario.jpg",
+      "alt": "Fiesta de la Virgen del Rosario",
+      "descripcion": "Una festividad importante en Uñón, llena de misas, procesiones y danzas. "
+    }
+  ]
+}

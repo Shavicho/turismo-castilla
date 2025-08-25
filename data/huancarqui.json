@@ -1,0 +1,32 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Balneario de Chancharay",
+      "img": "../img/balneario de chancharay.jpg",
+      "alt": "Balneario de Chancharay",
+      "descripcion": "Conocido por sus aguas medicinales y entorno natural, es un lugar ideal para relajarse y disfrutar de la naturaleza."    
+    },
+    {
+        "titulo":"La Tacta",
+        "img": "../img/la tacta.jpg",
+        "alt": "La Tacta",
+        "descripcion": "Es una piedra, dice que antiguamente se reunían las brujas para hacer sus maleficios."
+    }
+  ],
+  "actividades": [
+  {
+    "titulo": "Actividades festivas",
+    "img": "../img/carnavales.jpg",
+    "alt": "Actividades festivas",
+    "descripcion": "Carnavales, Semana Santa, Aniversario de Huancarqui el 3 de mayo de cada año, Virgen del Carmen 30 de agosto, Fiesta Virgen del Rosario y Fiesta de San Nicolás de Tolentino (noviembre)"
+  }
+  ],
+  "gastronomia":[
+    {
+        "titulo":"Gastronomía local",
+        "img": "../img/comidas-chupe.jpg",
+        "alt": "Gastronomía local",
+        "descripcion": "Huancarqui cuenta con restaurantes que ofrecen platos tradicionales peruanos, destacando la comida de la región. Chupe de camarón, chicharrón de chancho, cuy chactado, dulces, camotillos, empanadas, alfajores entre otros."
+    }
+  ]
+}

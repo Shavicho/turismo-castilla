@@ -1,0 +1,61 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Aguas Termales de Ccollpa",
+      "img": "../img/aguas termales de ccollpa.jpg",
+      "alt": "Aguas Termales de Ccollpa",
+      "descripcion": "Se encuentran a unos 20 minutos de Viraco, ya sea por carretera o caminando por una ruta que pasa cerca del cementerio. Estas aguas termales son conocidas por sus propiedades relajantes y medicinales, y son un lugar popular para disfrutar en familia. "    
+    },
+    {
+      "titulo": "Pueblo de Viraco",
+      "img": "../img/viraco.jpg",
+      "alt": "Pueblo de Viraco",
+      "descripcion": "El pueblo en sí mismo es un lugar de interés histórico, con vestigios de ocupación humana desde la época inca y preinca. Destacan sus tradiciones y costumbres, incluyendo las aficiones a gallos, caballos y toros de lidia."    
+    },
+    {
+      "titulo": "Apu Qhoropuna",
+      "img": "../img/apu qhoropuna.jpg",
+      "alt": "Apu Qhoropuna",
+      "descripcion": "La montaña Apu Qhoropuna es considerada la contraparte de Viracocha y forma parte de la cosmovisión andina. Es un complejo estratovolcánico de aproximadamente 1000 km² de la cordillera Ampato de los Andes, con una altitud de 6425 msnm, es el volcán más alto de Perú y la tercera mayor elevación del país. "    
+    },
+
+    {
+      "titulo": "El morro de Capellán",
+      "img": "../img/el morro de capellan.jpg",
+      "alt": "El morro de Capellán",
+      "descripcion": "El Morro de Capellán, distante 400 m. al SE de la plaza de armas de Viraco y 3 km. al norte de Yaso, tiene forma de pirámide trunca cuya explanada es de 800 m2., su camino de acceso norte constituye a la vez acueducto de riego; con una altura máxima de 3169 msnm, se eleva unos 10 m. por encima de los terrenos colindantes. En su explanada han sido encontradas en forma superficial: puntas de obsidiana y tiestos, objetos rupestres fragmentados (morteros, batanes, macanas, lajas pintadas, etc.) y la litoescultura antropomorfa aislada descrita en la parte anterior."    
+    },
+    {
+      "titulo": "Paccha de Linay",
+      "img": "../img/pacha de linay.jpg",
+      "alt": "Paccha de Linay",
+      "descripcion": "Un atractivo natural ubicado en el anexo de Costuro. Se puede llegar en auto o moto en unos 20 minutos, o caminando en aproximadamente una hora."    
+    }
+  ],
+  "actividades": [
+    {
+      "titulo": "Fiesta de Santa Úrsula",
+      "img": "../img/santa ursula.jpg",
+      "alt": "Fiesta de Santa Úrsula",
+      "descripcion": "Se celebra del 20 al 24 de octubre en honor a Santa Úrsula, también conocida como La Santa del Sombrero. "
+    },
+    {
+      "titulo": "Fiesta de San Antonio de Padua",
+      "img": "../img/padua.jpg",
+      "alt": "Fiesta de San Antonio de Padua",
+      "descripcion": "Celebrada por los residentes de Viraco en Lima, con una misa y actividades festivas. "
+    },
+    {
+      "titulo": "Pago a la tierra",
+      "img": "../img/pago.jpg",
+      "alt": "Pago a la tierra",
+      "descripcion": "Un ritual tradicional donde se realizan ofrendas a la Pachamama (Madre Tierra)."
+    },
+    {
+      "titulo": "Reverencia al Nevado Coropuna",
+      "img": "../img/coropuna.jpeg",
+      "alt": "Reverencia al Nevado Coropuna",
+      "descripcion": "El Coropuna es un nevado importante para la zona y se le rinde respeto y veneración. "
+    }
+  ]
+}

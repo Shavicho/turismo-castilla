@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ayo</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/cargarDatos.js" defer></script> <!-- 👈 solo un script general -->
+</head>
+<body data-json="../data/ayo.json" data-distrito="Ayo">
+  <!-- Barra de navegacion -->
+    <nav class="navbar">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/Logo-Castilla.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" id="toggle-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navbar-nav" id="menu">
+        <li><a class="nav-link active" href="../index.html">Inicio</a></li>
+        <li><a class="nav-link" href="../historia.html">Historia</a></li>
+        <li><a class="nav-link" href="../distritos.html">Distritos</a></li>
+      </ul>
+    </nav>
+    
+  <main>
+    <h1 id="titulo-distrito"></h1>
+    <p class="contenidoP" >El distrito de Ayo, ubicado en la provincia de Castilla, Arequipa, ofrece varios atractivos turísticos, incluyendo la Laguna de Mamacocha, la Ciudadela de Maucallacta, los andenes de K'ello K'ello y el mirador de Tingo. Además, forma parte del Valle de los Volcanes y es miembro del Geoparque Colca y Volcanes de Andagua.</p>
+
+    <!-- Menú de navegación interno -->
+    <nav class="indice">
+      <h3>Indice</h3>
+      <hr>
+      <ul>
+        <li><a href="#atractivos">&#x2192;Atractivos Turísticos</a></li>
+        <li><a href="#actividades">&#x2192;Actividades Turísticas</a></li>
+      </ul>
+    </nav>
+
+    <section id="atractivos">
+      <h2>Atractivos:</h2>
+      <div id="atractivos-container"></div>
+    </section>
+
+    <section id="actividades">
+      <h2>Actividades:</h2>
+      <div id="actividades-container"></div>
+    </section>
+
+  </main>
+</body>
+</html>

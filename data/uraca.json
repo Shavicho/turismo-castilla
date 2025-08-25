@@ -1,0 +1,16 @@
+{
+    "atractivos":[
+        {
+            "titulo": "Arte Rupestre Toro Muerto",
+            "img": "../img/toro-muerto.jpeg",
+            "alt": "Arte Rupestre Toro Muerto",
+            "descripcion": "Un lugar con pinturas rupestres que muestran la historia de la región. Se encuentra a tres horas de Arequipa, camino a Lima, o también se puede acceder desde el Valle del Colca."
+        },
+        {
+            "titulo":"Iglesia de San Miguel Arcángel",
+            "img": "../img/iglesia san miguel arcangel.png",
+            "alt": "Iglesia de San Miguel Arcángel",
+            "descripcion": " Una iglesia con valor histórico y cultural. "
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+/*
+.card {
+  position: relative;
+  width: 300px; 
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card {
+  width: 100%;
+  max-width: 300px; /* todas las tarjetas tendrán el mismo tamaño 
+}
+*/
+
+.card {
+    background-color: black;
+  position: relative;
+  width: 300px;
+  height: 300px; /* Altura fija para todas las tarjetas */
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+/*
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}*/
+
+.card img {
+  width: 100%;
+  height: 250px; /* Fija la altura del área de imagen */
+  object-fit: cover; /* Recorta la imagen para que encaje sin deformarla */
+  display: block;
+}
+
+.card-title{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;      /* siempre ocupa el mismo ancho que la imagen */
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column; /* título arriba, texto debajo */
+  justify-content: center;
+  align-items: center;    /* centra horizontalmente */
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 14px;
+}
+.overlay {
+  word-wrap: break-word; /* fuerza a que el texto baje si es largo */
+  overflow-wrap: break-word;
+  box-sizing: border-box; /* respeta el padding dentro del ancho */
+}
+/* Para pantallas pequeñas (ej. celular en vertical) */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    width: 100%;
+    height: 250px;  /* todas con la misma altura */
+  }
+
+  .card img {
+    height: 180px;      /* misma altura para todas */
+    object-fit: cover;  /* recorta la imagen para que encaje */
+  }
+}
+

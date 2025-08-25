@@ -1,0 +1,29 @@
+{
+  "atractivos": [
+    {
+        "titulo":"Baños Termales de Huancarama",
+        "img": "../img/baños termales de huancarana.png",
+        "alt": "Baños Termales de Huancarama",
+        "descripcion": "Aguas termales con propiedades medicinales, perfectas para relajarse. "
+    },
+    {
+        "titulo":"Misahuanca",
+        "img": "../img/misahuanca.jpg",
+        "alt": "Misahuanca",
+        "descripcion": "El Ministerio de la Cultura declaró como Patromonio Cultural de la Nación al monumento arqueológico prehispánico de Misahuanca, comunidad campesina enclavada en Orcopampa y que aún conserva intacta la arquitectura española del siglo XVI.Misahuanca está ubicada a 3.5 kilómetros al sureste del pueblo de Orcopampa, capital del distrito perteneciente a la provincia de Castilla. En él se pueden apreciar viviendas construidas con piedra e ichu que tienen más de 300 años de antigüedad.También se aprecia un puente colonial, molinos de agua españoles y una iglesia que data del siglo XVI."
+    },
+    {
+      "titulo": "Cataratas de Panahua",
+      "img": "../img/cataratas de panahua.jpg",
+      "alt": "Cataratas de Panahua",
+      "descripcion": "Cascadas impresionantes con aguas cristalinas, ideales para amantes de la naturaleza y la fotografía. "    
+    },
+    {
+        "titulo":"Vivero Forestal de la Compañía Minera Buenaventura",
+        "img": "../img/vivero forestal.png",
+        "alt": "Vivero Forestal",
+        "descripcion": "El Vivero Forestal de la Compañía Minera Buenaventura, ubicado en Orcopampa, Arequipa, tiene como objetivo principal la revegetación de áreas afectadas por actividades mineras. Este vivero, con un área aproximada de 12,470 metros cuadrados, cuenta con un invernadero que ayuda a mantener temperaturas entre 30° y 35°C para favorecer el crecimiento de las plantas. Entre las especies protegidas se encuentran la tola, chicchimpa y queñua. "
+    }
+    
+  ]
+}

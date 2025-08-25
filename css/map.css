@@ -1,0 +1,121 @@
+/* Contenedor principal */
+.mapa-container {
+  background: rgb(250, 243, 243);
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Título del mapa */
+.map-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de leyenda + mapa */
+.map-body {
+  display: flex;          /* Activamos flexbox */
+  flex-direction: row;    /* Leyenda a la izquierda, mapa a la derecha */
+  gap: 20px;              /* Espacio entre leyenda y mapa */
+  align-items: flex-start; /* Alineamos arriba */
+}
+
+/* Leyenda */
+.map-legend {
+  width: 200px;
+  margin-top: 10px; /* <-- Añade espacio interno en todos los lados */
+  padding-left: 100px;
+
+} 
+
+.map-legend h3 {
+  margin-bottom: 10px;
+}
+
+.map-legend ul {
+  list-style: none;
+  padding: 0;
+}
+
+.map-legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+/* Colores específicos */
+.color1 { background-color: #ffaaaa; }
+.color2 { background-color: #00ffff; }
+.color3 { background-color: #999999; }
+.color4 { background-color: #ffcc00; }
+.color5 { background-color: #008080;; }
+.color6 { background-color: #00ff00;; }
+.color7 { background-color: #ff6600; }
+.color8 { background-color: #800080; }
+.color9 { background-color: #0000ff; }
+.color10 { background-color: #a05a2c; }
+.color12 { background-color: #000080; }
+.color13 { background-color: #ff0000; }
+.color14 { background-color: #008000; }
+.color15 { background-color: #ffff00; }
+
+/* Contenedor del mapa */
+.map-content {  
+  flex: 1; /* Ocupa el resto del espacio */
+  height: auto;
+}
+
+.map-content svg {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  max-height: 90vh;
+  border-radius: 5px;
+}
+/* --- Versión responsive para el mapa --- */
+@media (max-width: 768px) {
+  .map-body {
+    flex-direction: column;   /* leyenda arriba, mapa abajo */
+    align-items: center;
+  }
+
+  .map-legend {
+    width: 100%;
+    padding-left: 0;          /* quitamos el empuje lateral */
+    text-align: center;       /* centramos la leyenda */
+    margin-bottom: 15px;      /* espacio entre leyenda y mapa */
+  }
+
+  .map-legend ul {
+    display: flex;            /* lista en varias columnas */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 20px;           /* espacio entre ítems */
+  }
+
+  .map-legend li {
+    margin-bottom: 0;         /* ya controlamos con gap */
+    font-size: 14px;          /* más compacto */
+  }
+
+  .map-content {
+    width: 100%;              /* mapa ocupa todo el ancho */
+    display: flex;
+    justify-content: center;
+  }
+
+  .map-content svg {
+    max-width: 100%;          /* se ajusta al contenedor */
+    height: auto;             /* mantiene proporción */
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Laguna de Mamacocha",
+      "img": "../img/laguna de mamacocha.jpg",
+      "alt": "Laguna de Mamacocha",
+      "descripcion": "Un tesoro escondido de aguas cristalinas, considerada maravilla natural y un oasis en medio de paisajes volcánicos. "    
+    },
+    {
+        "titulo":"Andenes de K'ello K'ello",
+        "img": "../img/andenes de kello kello.jpg",
+        "alt": "Andenes de K'ello K'ello",
+        "descripcion": "Este sitio arqueológico abarca una extensión longitudinal de 9 km, a 2000 m.s.n.m., se observa numerosas andenerías sin cultivar así como recintos habitacionales las mismas que se presumen son de la cultura Wari; este sitio se caracteriza por una gran cantidad de andenerías de diferentes tamaños desde 50 cm hasta 4 metros aproximadamente de altura, con un sistema de riego de canales y acueductos; el estilo de construcción es pirca, mampostería de aparejo concertado con rocas semi labradas y de diferentes tamaños, aun se aprecian restos de habitaciones para cuyas construcciones se emplearon piedras de diferentes tamaños"
+    },
+    {
+        "titulo":"Iglesia Matriz de Ayo",
+        "img": "../img/iglesia matriz de ayo.jpg",
+        "alt": "Iglesia Matriz de Ayo",
+        "descripcion": "Un punto de interés histórico y religioso en el distrito. "
+    },
+    {
+        "titulo":"Pintura Rupestre de Mamacocha",
+        "img": "../img/pintura rupestre de mamacocha.png",
+        "alt": "Pintura Rupestre de Mamacocha",
+        "descripcion": "Se  encuentran en la zona de Ayo, en la provincia de Castilla, en Arequipa, Perú. Se trata de un lugar donde se puede observar arte rupestre en rocas volcánicas, cerca de un manantial que forma la laguna de Mamacocha, un antiguo lugar de culto. Las pinturas, que muestran escenas de caza de camélidos, podrían tener una antigüedad de al menos 15,000 años,egún algunos cálculos"
+    },
+    {
+        "titulo":"Cerro Ccotojahuana",
+        "img": "../img/cerro ccotojahuana.jpeg",
+        "alt": "Cerro Ccotojahuana",
+        "descripcion": "Un cerro con paisajes impresionantes y vistas panorámicas del valle. Ayo, al ser parte del Geoparque Colca y Volcanes de Andagua, ofrece una experiencia turística única que combina naturaleza, cultura y aventura."
+    }
+  ],
+  "actividades": [
+    {
+      "titulo": "Fiesta patronal de San Sebastián",
+      "img": "../img/fiesta patronal de san sebastian.jpg",
+      "alt": "Fiesta patronal de San Sebastián",
+      "descripcion": "La fiesta patronal del distrito de Ayo en Arequipa, Perú, en honor a San Sebastián, se celebra el 20 de enero."
+    },
+    {
+      "titulo": "Fiesta Patronal Virgen del  Rosario",
+      "img": "../img/fiesta patronal de virgen del rosario.jpg",
+      "alt": "Fiesta Patronal Virgen del  Rosario",
+      "descripcion": "Fiesta a celebrarse en el mes de octubre de cada año."
+    }
+  ]
+}

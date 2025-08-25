@@ -1,0 +1,40 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Cerro de Marca",
+      "img": "../img/cerro.jpg",
+      "alt": "Cerro de Marca",
+      "descripcion": "Un cerro emblemático con vistas panorámicas del paisaje circundante."    
+    },
+    {
+        "titulo":"Ruinas de Maucallacta",
+        "img": "../img/ruinas de maucallacta.jpg",
+        "alt": "Ruinas de Maucallacta",
+        "descripcion": "Un sitio arqueológico que alberga vestigios de antiguas civilizaciones. Este complejo está constituido por ocho plazas desde las cuales se tiene una visión del contorno a lo natural, por un lado el Coropuna y por otro el pueblo de San Antonio y Pampacolca. A la entrada por un camino agreste encontramos una gran plataforma (planicie) donde se practicaban ceremonias, y en el medio un ushnu, plataforma elevada como un altar donde se realizaban ofrendas líquidas -chicha o sangre de los sacrificios- para que sean filtradas por las piedras hacia el interior de la tierra, o que también era utilizada como un adoratorio destinado al culto solar de donde los altos funcionarios dirigían ceremonias político-religioso."
+    },
+    {
+        "titulo":"Aguas Calientes",
+        "img": "../img/aguas calientes.jpg",
+        "alt": "Aguas Calientes",
+        "descripcion": "Aguas con propiedades medicinales y minerales, ideales para relajarse y disfrutar."
+    },
+    {
+        "titulo":"Laguna de Pallacocha",
+        "img": "../img/laguna de pallacocha.jpg",
+        "alt": "Laguna de Pallacocha",
+        "descripcion": "Una hermosa laguna que ofrece un entorno tranquilo y natural."
+    },
+    {
+        "titulo":"Hacienda Santa María",
+        "img": "../img/hacienda santa maria.jpg",
+        "alt": "Hacienda Santa María",
+        "descripcion": "Una hacienda histórica que ofrece una visión de la arquitectura y la vida rural de la zona. "
+    },
+    {
+        "titulo":"Puyas de Raimondi",
+        "img": "../img/puya.jpg",
+        "alt": "Puyas de Raimondi",
+        "descripcion": "Una especie de planta endémica de los Andes, conocida por su impresionante altura."
+    }
+  ]
+}

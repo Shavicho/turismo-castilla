@@ -1,0 +1,35 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Ciudadela de Huasicac",
+      "img": "../img/huasic.jpeg",
+      "alt": "Ciudadela de Huasicac",
+      "descripcion": "Se construyó durante la expansión inca y su estructura es única en toda la región de Arequipa. Sus habitaciones tienen una altura de 7 a 9 metros, construidas de piedras pequeñas y rojizas, existe evidencia de esta habitaciones, fueron estucadas con barro y quincha."
+
+    },
+    {
+        "titulo":"El Mirador",
+        "img": "../img/el mirador.jpg",
+        "alt": "El Mirador",
+        "descripcion": "Un sitio arqueológico que ofrece vistas panorámicas del entorno. "
+    },
+    {
+        "titulo":"La Iglesia",
+        "img": "../img/iglesia de machaguay.jpeg",
+        "alt": "La Iglesia",
+        "descripcion": "Una construcción de valor histórico y cultural."
+    },
+    {
+        "titulo":"Santuario de Chapi",
+        "img": "../img/chapi.jpeg",
+        "alt": "Santuario de Chapi",
+        "descripcion": "Un lugar turístico importante en el anexo de Acopallpa. "
+    },
+    {
+        "titulo":"Paisajes, sitios arqueológicos y aguas termales",
+        "img": "../img/taparza.jpg",
+        "alt": "Paisajes",
+        "descripcion": "Machaguay es reconocido por sus atractivos naturales y culturales, incluyendo sus paisajes, restos arqueológicos y fuentes termales. "
+    }
+  ]
+}

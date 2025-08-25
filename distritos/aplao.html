@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aplao</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- Barra de navegacion -->
+    <nav class="navbar">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/Logo-Castilla.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" id="toggle-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navbar-nav" id="menu">
+        <li><a class="nav-link active" href="../index.html">Inicio</a></li>
+        <li><a class="nav-link" href="../historia.html">Historia</a></li>
+        <li><a class="nav-link" href="../distritos.html">Distritos</a></li>
+      </ul>
+    </nav>
+    
+  <main>
+    <h1>DISTRITO DE APLAO CAPITAL DE LA PROVINCIA</h1>
+    <p class="contenidoP" >Aplao es la capital del distrito y de la Provincia de Castilla, ciudad situada en la mitad de valle de Majes. Se encuentra por debajo de los 1 000 m s. n. m.</p>
+
+    <!-- Menú de navegación interno -->
+    <nav class="indice">
+      <h3>Indice</h3>
+      <ul>
+        <li><a href="#atractivos">&#x2192; Atractivos Turísticos</a></li>
+        <li><a href="#actividades">&#x2192; Actividades Turisticas</a></li>
+        <li><a href="#gastronomia">&#x2192; Gatronomia</a></li>
+      </ul>
+    </nav>
+
+    <section id="atractivos">
+      <h2>Lugares turísticos en Aplao:</h2>
+      <div id="atractivos-container"></div>
+    </section>
+
+    <section id="actividades">
+      <h2>Actividades turísticas en Aplao:</h2>
+      <div id="actividades-container"></div>
+    </section>
+
+    <section id="gastronomia">
+      <h2>Gastronomía en Aplao:</h2>
+      <div id="gastronomia-container"></div>
+    </section>
+
+  </main>
+  <script>
+  // Función para crear cards
+  function crearCard(item) {
+    return `
+      <div class="card">
+        <img src="${item.img}" alt="${item.alt}">
+        <div class="card-content">
+          <h3>${item.titulo}</h3>
+          <p>${item.descripcion}</p>
+        </div>
+      </div>
+    `;
+  }
+
+  // Cargar el JSON
+  fetch("../data/aplao.json")
+    .then(response => response.json())
+    .then(data => {
+      // Atractivos
+      const atractivosContainer = document.getElementById("atractivos-container");
+      atractivosContainer.innerHTML = data.atractivos.map(crearCard).join("");
+
+      // Actividades
+      const actividadesContainer = document.getElementById("actividades-container");
+      actividadesContainer.innerHTML = data.actividades.map(crearCard).join("");
+
+      // Gastronomía
+      const gastronomiaContainer = document.getElementById("gastronomia-container");
+      gastronomiaContainer.innerHTML = data.gastronomia.map(crearCard).join("");
+
+    })
+    .catch(error => console.error("Error cargando JSON:", error));
+  </script>
+
+  <script src="../js/script.js"></script> <!-- tu JS que carga el JSON -->
+</body>
+</html>

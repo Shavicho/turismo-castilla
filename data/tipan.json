@@ -1,0 +1,22 @@
+{
+  "atractivos": [
+    {
+      "titulo": "Monolitos del Centro Ceremonial de Paranccayoc",
+      "img": "../img/paranccayoc.jpeg",
+      "alt": "Piedras del Centro Ceremonial de Paranccayoc",
+      "descripcion": "Son un conjunto de monolitos tallados por culturas pre-incas en el período autónomo. Estas piedras, ubicadas en la parte alta de la capital de la provincia y en el anexo de Tagre, fueron talladas con técnicas de percusión y presentan figuras antropomorfas, zoomorfas y simbólicas, reflejando la fertilidad de la región. "    
+    },
+    {
+      "titulo": "Mirador de Tipansillo",
+      "img": "../img/tipansillo.jpg",
+      "alt": "Mirador de Tipansillo",
+      "descripcion": "Ofrece una vista panorámica del valle interandino y del majestuoso volcán Coropuna. "    
+    },
+    {
+      "titulo": "Huellas de Dinosaurio de Capiza",
+      "img": "../img/capiza.jpg",
+      "alt": "Piedras del Centro Ceremonial de Paranccayoc",
+      "descripcion": "Localizadas a un costado de la vía de acceso hacia los andes de la provincia. Castilla se caracteriza por albergar formaciones y evidencias del pasado prehistórico de nuestro planeta, además de albergar 2 de los 3 únicos lugares donde existen ignitas o huellas de dinosaurio a nivel nacional."    
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+body {
+  background: linear-gradient(to bottom, #f3dfb9, #f8efc5); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  background-color: #2c3e50;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #34495e;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+}
+/* Estilos para las "cards" de atractivos */
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 30px 50px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.card-content p {
+  line-height: 1.5;
+  color: #333;
+}
+/* --- Mapa interactivo --- */
+.mapa-container {
+  max-width: 900px;
+  margin:20px auto; /* top right bottom left */
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  background: transparent;
+  
+}
+
+.mapa {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.distrito {
+  fill: #93c5fd;           /* celeste */
+  stroke: #1e3a8a;         /* azul oscuro */
+  stroke-width: 2;
+  transition: fill .2s ease, transform .15s ease;
+}
+
+a .distrito { cursor: pointer; }
+a:hover .distrito {
+  fill: #60a5fa;
+  transform: scale(1.01);
+}
+
+
+
+
+
+/*
+
+.tooltip {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  display: none;
+  width: 200px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.tooltip img {
+  width: 100%;
+  border-radius: 6px;
+}
+.tooltip h3 {
+  margin: 5px 0;
+}
+*/
+/* estilo del js para apertura de cada distrito*/
+.tooltip {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  display: none;
+  max-width: 400px; /* más ancho que alto → rectángulo */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+}
+
+.tooltip-contenido {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.tooltip-contenido img {
+  width: 140px;      /* imagen más grande */
+  height: auto;      /* mantiene proporción */
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.tooltip-contenido .texto {
+  flex: 1;
+}
+
+.tooltip-contenido h3 {
+  margin: 0 0 6px 0;
+  font-size: 15px;   /* más equilibrado */
+  color: #333;
+}
+
+.tooltip-contenido p {
+  margin: 0;
+  font-size: 13px;   /* más pequeño que el título */
+  line-height: 1.4;
+  color: #555;
+}
+
+
+/* estilos de las palabras*/
+h1 {
+  font-size: 36px;
+  font-weight: bold; /* opcional */
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.contenidoP {
+  font-size: 18px;
+  line-height: 1.5; /* opcional, para mejorar la lectura */
+  padding-right: 80px;
+  padding-left: 80px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+nav hr {
+  border: none;           /* quitamos el borde por defecto */
+  height: 1px;            /* grosor de la línea */
+  background-color: #000000; /* color de la línea */
+  margin: 5px 0 10px 0;   /* espacio arriba y abajo */
+}
+
+/* HERO con fondo de imágenes */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 70vh; /* altura ajustable */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Fondo animado */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-size: cover;
+  background-position: center;
+  animation: cambiarFondo 20s infinite;
+  z-index: -1;
+}
+
+/* Animación de cambio de imágenes */
+@keyframes cambiarFondo {
+  0%   { background-image: url("../img/castilla1.jpg"); }
+  33%  { background-image: url("../img/castilla2.jpg"); }
+  66%  { background-image: url("../img/castilla3.jpg"); }
+  100% { background-image: url("../img/castilla1.jpg"); }
+}
+
+/* Caja con el título */
+.titulo {
+  background: rgba(0,0,0,0.6); /* rectángulo oscuro translúcido */
+  padding: 20px 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.titulo h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* estilo de la historia*/
+.historia-container {
+      background-color: white;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .historia-container h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .historia-imagen {
+      float: left;
+      width: 250px;
+      margin: 0 20px 20px 0;
+      border-radius: 8px;
+    }
+
+    @media screen and (max-width: 768px) {
+    .historia-imagen {
+      float: none;
+      display: block;
+      margin: 0 auto 20px;
+      width: 90%;         /* un poco más pequeño que el 100% */
+      max-width: 300px;   /* no dejar que crezca más de 300px */
+      height: auto;       /* para mantener la proporción */
+    }
+  }
+
+  /* 📱 Ajustes responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+
+  /* Texto principal */
+  h1 {
+    font-size: 24px;  /* más pequeño que 36px */
+  }
+
+  .contenidoP {
+    font-size: 16px;
+    padding: 0 20px;  /* menos padding lateral */
+  }
+
+  /* Cards (imagen + texto) */
+  .card {
+    flex-direction: column;   /* pasa de fila a columna */
+    margin: 15px 10px;        /* márgenes más pequeños */
+  }
+
+  .card img {
+    width: 100%;   /* imagen ocupa el ancho del contenedor */
+    height: auto;  /* mantiene proporción */
+  }
+
+  /* Mapa */
+  .mapa-container {
+    margin: 10px;
+  }
+
+  /* Hero */
+  .titulo h1 {
+    font-size: 1.8rem;
+  }
+  .titulo {
+    padding: 10px 20px;
+  }
+
+  /* Historia */
+  .historia-container {
+    padding: 20px;
+  }
+}
+
+
+
+
+
