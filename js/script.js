@@ -1,7 +1,7 @@
 let tooltip = document.getElementById("tooltip");
 let datosDistritos = {};
 
-// Cargar datos JSON
+// Cargar datos JSON  
 fetch('data/distritos.json?nocache=' + new Date().getTime())
   .then(response => response.json())
   .then(data => {
@@ -81,4 +81,9 @@ const menu = document.getElementById('menu');
 
 toggleButton.addEventListener('click', () => {
   menu.classList.toggle('show');
+});
+document.querySelectorAll('#menu .nav-link').forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('show');
+  });
 });
