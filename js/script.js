@@ -1,79 +1,102 @@
 let tooltip = document.getElementById("tooltip");
 let datosDistritos = {};
 
-// Cargar datos JSON  
+// Cargar datos JSON
 fetch('data/distritos.json?nocache=' + new Date().getTime())
   .then(response => response.json())
-  .then(data => {
-    datosDistritos = data;  // Guardar datos cargados
-    console.log("Datos cargados:", datosDistritos);
-  })
+  .then(data => { datosDistritos = data; })
   .catch(error => console.error('Error cargando JSON:', error));
 
-// Eventos sobre los <a> dentro del SVG
-document.querySelectorAll("svg a").forEach(area => {
-  area.addEventListener("mouseenter", (e) => {
-    let id = area.getAttribute("data-id");
-    if (datosDistritos[id]) {
-      let d = datosDistritos[id];
-      /*
-      tooltip.innerHTML = `
-        <h3>${d.titulo}</h3>
-        <hr>
-        <img src="${d.imagen}" alt="${d.titulo}" style="width:120px; display:block; margin-top:5px;">
-        <hr>
-        <p>${d.descripcion}</p>
-      `;
-      tooltip.style.display = "block";
-*/
-      tooltip.innerHTML = `
-        <div class="tooltip-contenido">
-          <!-- <img src="${d.imagen}" alt="${d.titulo}"></img> -->
-          <div class="texto">
-            <h3>${d.titulo}</h3>
-            <hr>
-            <p>${d.descripcion}</p>
+// --- PC: tooltip que sigue el mouse ---
+if (window.innerWidth > 768) {
+  document.querySelectorAll("svg a").forEach(area => {
+    area.addEventListener("mouseenter", () => {
+      let id = area.getAttribute("data-id");
+      if (datosDistritos[id]) {
+        let d = datosDistritos[id];
+        tooltip.innerHTML = `
+          <div class="tooltip-contenido">
+            <div class="texto">
+              <h3>${d.titulo}</h3>
+              <hr>
+              <p>${d.descripcion}</p>
+            </div>
           </div>
-        </div>
-      `;
-      tooltip.style.display = "block";
-    }
+        `;
+        tooltip.style.display = "block";
+      }
+    });
+
+    area.addEventListener("mousemove", (e) => {
+      const tooltipWidth = tooltip.offsetWidth;
+      const tooltipHeight = tooltip.offsetHeight;
+      const pageWidth = window.innerWidth;
+      const pageHeight = window.innerHeight;
+
+      let left = e.pageX + 15;
+      let top = e.pageY + 15;
+
+      if (left + tooltipWidth > pageWidth) left = e.pageX - tooltipWidth - 15;
+      if (top + tooltipHeight > pageHeight) top = e.pageY - tooltipHeight - 15;
+
+      tooltip.style.left = left + "px";
+      tooltip.style.top = top + "px";
+    });
+
+    area.addEventListener("mouseleave", () => {
+      tooltip.style.display = "none";
+    });
   });
-  /*
-  area.addEventListener("mousemove", (e) => {
-    tooltip.style.left = (e.pageX + 15) + "px";
-    tooltip.style.top = (e.pageY + 15) + "px";
+}
+
+// --- Móvil: long press ---
+if (window.innerWidth <= 768) {
+  document.querySelectorAll("svg a").forEach(area => {
+    let touchTimer;
+    let longPress = false;
+    let startX = 0, startY = 0;
+
+    area.addEventListener("touchstart", (e) => {
+      const touch = e.touches[0];
+      startX = touch.clientX;
+      startY = touch.clientY;
+      longPress = false;
+
+      touchTimer = setTimeout(() => {
+        longPress = true;
+        let id = area.getAttribute("data-id");
+        if (datosDistritos[id]) {
+          let d = datosDistritos[id];
+          tooltip.innerHTML = `
+            <div class="tooltip-contenido">
+              <div class="texto">
+                <h3>${d.titulo}</h3>
+                <hr>
+                <p>${d.descripcion}</p>
+              </div>
+            </div>
+          `;
+          tooltip.style.display = "block";
+        }
+      }, 500); // tiempo para long press
+    });
+
+    area.addEventListener("touchmove", (e) => {
+      const touch = e.touches[0];
+      if (Math.abs(touch.clientX - startX) > 10 || Math.abs(touch.clientY - startY) > 10) {
+        clearTimeout(touchTimer);
+      }
+    });
+
+    area.addEventListener("touchend", (e) => {
+      clearTimeout(touchTimer);
+      if (longPress) {
+        tooltip.style.display = "none";
+        e.preventDefault();
+      }
+    });
   });
-  */
-
-
-  area.addEventListener("mousemove", (e) => {
-  const tooltipWidth = tooltip.offsetWidth;
-  const tooltipHeight = tooltip.offsetHeight;
-  const pageWidth = window.innerWidth;
-  const pageHeight = window.innerHeight;
-
-  let left = e.pageX + 15;
-  let top = e.pageY + 15;
-
-  // Evitar que se salga por la derecha
-  if (left + tooltipWidth > pageWidth) {
-    left = e.pageX - tooltipWidth - 15;
-  }
-
-  // Evitar que se salga por abajo
-  if (top + tooltipHeight > pageHeight) {
-    top = e.pageY - tooltipHeight - 15;
-  }
-
-  tooltip.style.left = left + "px";
-  tooltip.style.top = top + "px";
-  });
-  area.addEventListener("mouseleave", () => {
-    tooltip.style.display = "none";
-  });
-});
-
+}
 
 // Toggle del menú en móvil
 const toggleButton = document.getElementById('toggle-menu');
@@ -83,7 +106,5 @@ toggleButton.addEventListener('click', () => {
   menu.classList.toggle('show');
 });
 document.querySelectorAll('#menu .nav-link').forEach(link => {
-  link.addEventListener('click', () => {
-    menu.classList.remove('show');
-  });
+  link.addEventListener('click', () => menu.classList.remove('show'));
 });

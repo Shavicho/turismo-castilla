@@ -229,5 +229,27 @@ body {
   }
 }
 
+/* Ajuste extra para móviles */
+@media (max-width: 768px) {
+  .tooltip {
+    position: fixed !important;  /* Se mantiene en viewport */
+    max-width: 90%;
+    font-size: 0.9rem;
+    text-align: center;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 9999; /* Encima de todo */
+  }
+
+  .tooltip-contenido {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tooltip-contenido img {
+    width: 100px;
+  }
+}
 
 
