@@ -7,13 +7,13 @@
   },
   "andahua": {
     "titulo": "Andahua",
-    "descripcion": "Distrito que forma parte de Castilla Alta, famoso por el valle de los volcanes y su geología única.",
+    "descripcion": "Conocido como 'El Corazon del Valle de los Volcanes', es un distrito que forma parte de Castilla Alta, famoso por el valle de los volcanes y su geología única.",
     "imagen": "../img/andagua.jpg",
     "url":"distritos/andagua.html"
   },
   "ayo": {
     "titulo": "Ayo",
-    "descripcion": "Un distrito pequeño con paisajes de altiplano y cultura rural ancestral.",
+    "descripcion": "Conocido como 'El Paraiso Escondido de Castilla', es un distrito pequeño con paisajes de altiplano y cultura rural ancestral.",
     "imagen": "../img/ayo.jpg",
     "url":"distritos/ayo.html"
   },
@@ -25,13 +25,13 @@
   },
   "choco": {
     "titulo": "Choco",
-    "descripcion": "Zona rural de altiplano con paisajes tranquilos y comunidades agrícolas.",
+    "descripcion": "Conocido como 'La Joya Escondida de Castilla', es una zona rural de altiplano con paisajes tranquilos y comunidades agrícolas.",
     "imagen": "../img/choco.jpg",
     "url":"distritos/choco.html"
   },
   "huancarqui": {
     "titulo": "Huancarqui",
-    "descripcion": "Distrito ubicado en el valle de Castilla Baja, con una importante actividad agrícola.",
+    "descripcion": "Conocido como 'Tierra de Brujas', es un distrito ubicado en el valle de Castilla Baja, con una importante actividad agrícola.",
     "imagen": "../img/huancarqui.jpg",
     "url":"distritos/huancarqui.html"
   },
@@ -43,7 +43,7 @@
   },
   "orcopampa": {
     "titulo": "Orcopampa",
-    "descripcion": "Ubicado en altura, destaca por las actividades mineras y su entorno andino.",
+    "descripcion": "Conocido como 'Un Secreto Escondido en la Región de Arequipa', esta ubicado en altura, destaca por las actividades mineras y su entorno andino.",
     "imagen": "../img/orcopampa.png",
     "url":"distritos/orcopampa.html"
   },
@@ -55,7 +55,7 @@
   },
   "tipan": {
     "titulo": "Tipán",
-    "descripcion": "Distrito agrícola rodeado de paisajes interandinos templados.",
+    "descripcion": "Conocido como 'Paisaje Natural de Castilla', es un distrito agrícola rodeado de paisajes interandinos templados.",
     "imagen": "../img/tipan.jpg",
     "url":"distritos/tipan.html"
   },
@@ -67,16 +67,16 @@
   },
   "uraca": {
     "titulo": "Uraca-Corire",
-    "descripcion": "Distrito ubicado en el valle de Majes, con historia preincaica y petroglifos como su principal atractivo.",
+    "descripcion": "Conocido como 'La Perla del Valle de Majes', es un distrito ubicado en el valle de Majes, con historia preincaica y petroglifos como su principal atractivo.",
     "imagen": "../img/corire.png",
     "url":"distritos/uraca.html"
   },
   "viraco": {
     "titulo": "Viraco",
-    "descripcion": "Distrito de Castilla Media, con tradiciones culturales y festividades religiosas.",
+    "descripcion": "Conocido como 'La Capital Taurina del Sur del Perú', es un Distrito de Castilla Media, con tradiciones culturales y festividades religiosas.",
     "imagen": "../img/viraco.jpg",
     "url":"distritos/viraco.html"
-  },
+  },  
   "chachas": {
     "titulo": "Chachas",
     "descripcion": "Conocido como 'La Perla de Castilla', es famoso por su laguna pintoresca y tradiciones andinas.",

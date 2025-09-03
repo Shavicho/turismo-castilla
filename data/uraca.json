@@ -7,10 +7,33 @@
             "descripcion": "Un lugar con pinturas rupestres que muestran la historia de la región. Se encuentra a tres horas de Arequipa, camino a Lima, o también se puede acceder desde el Valle del Colca."
         },
         {
+            "titulo":"Fundo LLutis",
+            "img": "../img/fundo llutis.png",
+            "alt": "Fundo LLutis",
+            "descripcion": "Rodeado por extensos campos de cultivo y bañado por el río Majes, este fundo representa la esencia de la actividad agrícola que da vida a la región. Aquí, la tradición se encuentra con la productividad: se cultivan uvas, paltas, mangos, maíz y otros frutos que prosperan gracias al clima soleado y a la generosidad de estas tierras. "
+        },
+        {
             "titulo":"Iglesia de San Miguel Arcángel",
             "img": "../img/iglesia san miguel arcangel.png",
             "alt": "Iglesia de San Miguel Arcángel",
             "descripcion": " Una iglesia con valor histórico y cultural. "
         }
-    ]
+    ],
+    "actividades": [
+    {
+      "titulo": "Festival de la Vendimia",
+      "img": "../img/vendimia.png",
+      "alt": "Vendimia",
+      "descripcion": "El Festival de la Vendimia es una celebración emblemática del Valle de Majes, donde la cosecha de la uva se convierte en una fiesta de tradición, alegría y sabor. Cada año, productores, familias y visitantes se reúnen para rendir homenaje al fruto de la vid y al trabajo de quienes lo cultivan."
+    }
+    
+    ],    
+    "gastronomia":[
+    {
+        "titulo":"Festival del Camaron",
+        "img": "../img/festival camaron.jpg",
+        "alt": "Festival del Camaron",
+        "descripcion": "Cada año, Corire celebra con orgullo el Festival del Camarón, una de las festividades más representativas del Valle de Majes. Este evento rinde homenaje al camarón de río, emblema gastronómico de la zona, y reúne a pobladores, turistas y amantes de la cocina tradicional en una experiencia llena de sabor, cultura y música."
+    }
+  ]
 }

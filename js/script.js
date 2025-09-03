@@ -49,62 +49,61 @@ if (window.innerWidth > 768) {
   });
 }
 
-// --- Móvil: long press ---
+// --- Móvil: click abre modal ---
 if (window.innerWidth <= 768) {
-  document.querySelectorAll("svg a").forEach(area => {
-    let touchTimer;
-    let longPress = false;
-    let startX = 0, startY = 0;
+  const modal = document.getElementById("modal");
+  const modalTitulo = document.getElementById("modal-titulo");
+  const modalDescripcion = document.getElementById("modal-descripcion");
+  const modalVerMas = document.getElementById("modal-vermas");
+  const cerrarBtn = document.querySelector(".cerrar");
 
-    area.addEventListener("touchstart", (e) => {
-      const touch = e.touches[0];
-      startX = touch.clientX;
-      startY = touch.clientY;
-      longPress = false;
-
-      touchTimer = setTimeout(() => {
-        longPress = true;
+  if (modal && modalTitulo && modalDescripcion && modalVerMas && cerrarBtn) {
+    document.querySelectorAll("svg a").forEach(area => {
+      area.addEventListener("click", (e) => {
+        e.preventDefault(); // evita que redirija de frente
         let id = area.getAttribute("data-id");
+
         if (datosDistritos[id]) {
           let d = datosDistritos[id];
-          tooltip.innerHTML = `
-            <div class="tooltip-contenido">
-              <div class="texto">
-                <h3>${d.titulo}</h3>
-                <hr>
-                <p>${d.descripcion}</p>
-              </div>
-            </div>
-          `;
-          tooltip.style.display = "block";
+          modalTitulo.textContent = d.titulo;
+          modalDescripcion.textContent = d.descripcion;
+          modalVerMas.href = area.getAttribute("href"); // usa el mismo enlace del mapa
+          modal.style.display = "flex";
         }
-      }, 500); // tiempo para long press
+      });
     });
 
-    area.addEventListener("touchmove", (e) => {
-      const touch = e.touches[0];
-      if (Math.abs(touch.clientX - startX) > 10 || Math.abs(touch.clientY - startY) > 10) {
-        clearTimeout(touchTimer);
-      }
+    // Cerrar modal al hacer click en la X
+    cerrarBtn.addEventListener("click", () => {
+      modal.style.display = "none";
     });
 
-    area.addEventListener("touchend", (e) => {
-      clearTimeout(touchTimer);
-      if (longPress) {
-        tooltip.style.display = "none";
-        e.preventDefault();
+    // Cerrar modal al hacer click fuera de la ventana
+    window.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.style.display = "none";
       }
     });
-  });
+  }
 }
 
-// Toggle del menú en móvil
-const toggleButton = document.getElementById('toggle-menu');
-const menu = document.getElementById('menu');
 
-toggleButton.addEventListener('click', () => {
-  menu.classList.toggle('show');
-});
-document.querySelectorAll('#menu .nav-link').forEach(link => {
-  link.addEventListener('click', () => menu.classList.remove('show'));
+// Toggle del menú en móvil
+// Toggle del menú (seguro para páginas sin navbar o con DOM tardío)
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleButton = document.getElementById('toggle-menu');
+  const menu = document.getElementById('menu');
+
+  if (toggleButton && menu) {
+    toggleButton.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+
+    menu.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => menu.classList.remove('show'));
+    });
+  } else {
+    // Opcional para depurar si alguna página no tiene IDs correctos
+    // console.warn('Navbar no encontrada en esta página (falta #toggle-menu o #menu).');
+  }
 });

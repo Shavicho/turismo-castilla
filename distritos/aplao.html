@@ -6,8 +6,11 @@
   <title>Aplao</title>
   <link rel="stylesheet" href="../css/estilos.css">
   <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/cargarDatos.js" defer></script> <!-- 👈 solo un script general -->
 </head>
-<body>
+
+
+<body data-json="../data/aplao.json" data-distrito="Aplao">
   <!-- Barra de navegacion -->
     <nav class="navbar">
       <a class="navbar-brand" href="../index.html">
@@ -26,26 +29,27 @@
     </nav>
     
   <main>
-    <h1>DISTRITO DE APLAO CAPITAL DE LA PROVINCIA</h1>
+    <h1 id="titulo-distrito"></h1>
     <p class="contenidoP" >Aplao es la capital del distrito y de la Provincia de Castilla, ciudad situada en la mitad de valle de Majes. Se encuentra por debajo de los 1 000 m s. n. m.</p>
 
     <!-- Menú de navegación interno -->
     <nav class="indice">
       <h3>Indice</h3>
+      <hr>
       <ul>
-        <li><a href="#atractivos">&#x2192; Atractivos Turísticos</a></li>
-        <li><a href="#actividades">&#x2192; Actividades Turisticas</a></li>
+        <li><a href="#atractivos">&#x2192;Atractivos Turísticos</a></li>
+        <li><a href="#actividades">&#x2192;Actividades Turísticas</a></li>
         <li><a href="#gastronomia">&#x2192; Gatronomia</a></li>
       </ul>
     </nav>
 
     <section id="atractivos">
-      <h2>Lugares turísticos en Aplao:</h2>
+      <h2>Atractivos:</h2>
       <div id="atractivos-container"></div>
     </section>
 
     <section id="actividades">
-      <h2>Actividades turísticas en Aplao:</h2>
+      <h2>Actividades:</h2>
       <div id="actividades-container"></div>
     </section>
 
@@ -55,40 +59,9 @@
     </section>
 
   </main>
-  <script>
-  // Función para crear cards
-  function crearCard(item) {
-    return `
-      <div class="card">
-        <img src="${item.img}" alt="${item.alt}">
-        <div class="card-content">
-          <h3>${item.titulo}</h3>
-          <p>${item.descripcion}</p>
-        </div>
-      </div>
-    `;
-  }
-
-  // Cargar el JSON
-  fetch("../data/aplao.json")
-    .then(response => response.json())
-    .then(data => {
-      // Atractivos
-      const atractivosContainer = document.getElementById("atractivos-container");
-      atractivosContainer.innerHTML = data.atractivos.map(crearCard).join("");
-
-      // Actividades
-      const actividadesContainer = document.getElementById("actividades-container");
-      actividadesContainer.innerHTML = data.actividades.map(crearCard).join("");
-
-      // Gastronomía
-      const gastronomiaContainer = document.getElementById("gastronomia-container");
-      gastronomiaContainer.innerHTML = data.gastronomia.map(crearCard).join("");
-
-    })
-    .catch(error => console.error("Error cargando JSON:", error));
-  </script>
-
-  <script src="../js/script.js"></script> <!-- tu JS que carga el JSON -->
 </body>
+
+
+
+
 </html>

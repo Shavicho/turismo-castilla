@@ -7,10 +7,22 @@
       "descripcion": "El Castillo Encantado de Aplao es una formación rocosa ubicada a aproximadamente 10 minutos al norte de Aplao, en la provincia de Castilla, Arequipa. Esta estructura geológica, que recuerda a un castillo medieval, ha dado lugar a diversas leyendas y mitos locales..."
     },
     {
+        "titulo":"Paisaje Arqueologico Geoglifos de Cosos",
+        "img": "../img/cosos.png",
+        "alt": "Cosos",
+        "descripcion": "Ubicados sobre una meseta geográfica se encuentran los Geoglifos de Cosos, imágenes de fino acabado similares a las líneas o geoglifos de Palpa en Nazca. Se aprecia figuras de un camélido, figura en la zona sur de la meseta que se asemeja a una llama, observando a la salida del sol(oeste) con una medida de 4 metros de cabeza a cola. La Espiral, figura incompleta en forma de espiral, círculos ascendentes en tamaño con una roca semicircular en el centro, ubicado al lado norte de la meseta, tiene una dimensión de 6 metros y Espiral Serpiente que mide aproximadamente 15 metros de largo y es el mejor conservado."
+    },
+    {
         "titulo":"Parque Jurásico de Querulpa",
         "img": "../img/parque jurasico de querulpa.jpeg",
         "alt": "Parque Jurásico de Querulpa",
         "descripcion": "Un parque paleontológico con fósiles, ubicado entre Corire y Aplao. El Parque jurásico de Querulpa, fue descubierto en el año 2002 por pobladores de esta zona; en este lugar se encontraron (icnitas), huellas reales de dinosaurios que se petrificaron; hasta la fecha se encontraron 69 huellas  y se presume que existen más de estas, pero todavía ocultas."
+    },
+    {
+        "titulo":"Puente Colgante de Capiza",
+        "img": "../img/puente capiza.png",
+        "alt": "Puente Congalte",
+        "descripcion": "Construido con tablones de madera, ofrece un paso seguro pero rústico sobre las aguas del cañón. Rodeado de un entorno natural impresionante, el puente es utilizado tanto por pobladores locales como por visitantes que recorren rutas de trekking y turismo rural."
     },
     {
         "titulo":"Rostro de Cristo",
@@ -18,14 +30,28 @@
         "alt": "Rostro de Cristo",
         "descripcion": "El Rostro de Cristo, es un capricho de la naturaleza perteneciente a la formación Yura-Moquegua, está localizado en la ladera de un cerro del anexo de Cosos, la formación rocosa asemeja al perfil de Jesucristo mirando serenamente hacia el firmamento, es considerado uno de los principales atractivos del distrito de Aplao y del valle de Majes."
     }
+    
   ],
   "actividades": [
     {
+      "titulo": "Festival del Camaron",
+      "img": "../img/festival aplao.png",
+      "alt": "Festival",
+      "descripcion": "El Festival del Camarón en Aplao es una celebración que enaltece uno de los productos más emblemáticos del río Majes: el camarón de río. Cada año, esta festividad convoca a lugareños y visitantes en torno a una experiencia gastronómica única, donde se preparan deliciosos platillos."
+    },
+    {
+      "titulo": "La Ruta del Pisco - Bodega de Pisco de Jorge Estremadoyro",
+      "img": "../img/ruta pisco.png",
+      "alt": "Ruta pisco",
+      "descripcion": "Esta reliquia de adobe y huarango ha sido preservada con devoción por la familia Estremadoyro. En la imagen se observan tinajas de barro de distintos tamaños, vestigios de la historia pisquera."
+    },
+    {
       "titulo": "Canotaje",
       "img": "../img/majes river.jpg",
-      "alt": "wawa",
-      "descripcion": "En el río Majes."
+      "alt": "Canotaje",
+      "descripcion": "En el río Majes, se practica sobre una embarcación ligera, la embarcación es propulsada por una o varias personas con una pala que van situadas de frente a la proa de la embarcación."
     }
+    
   ],
   "gastronomia":[
     {
