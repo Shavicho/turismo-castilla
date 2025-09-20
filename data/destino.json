@@ -2,10 +2,10 @@
   "aplao": {
     "titulo": "Aplao",
     "imagen": "../img/aplao.jpg",
-    "info": "Aplao es la capital de la provincia de Castilla, conocida por sus paisajes y producción agrícola.",
-    "carro": "El viaje desde Arequipa en carro toma alrededor de 4 horas y 41 minutos (226 km).",
-    "bus": "La forma más económica es en bus de Arequipa a Cabanaconde (~7 horas).",
-    "walk": "Existen caminos de herradura antiguos, pero en mal estado de conservación.",
+    "info": "El distrito de Aplao, capital de la provincia de Castilla, en Arequipa, se encuentra a unos 176 kilómetros de la ciudad de Arequipa.",
+    "carro": "El viaje dura aproximadamente 2 horas y 56 minutos.",
+    "bus": "Es una opción económica. Un viaje directo en autobús puede tomar alrededor de 4 horas. Algunas empresas, como Transportes del Carpio, cubren esta ruta",
+    "walk": "",
     "url": "distritos/aplao.html"
     },
 
@@ -13,7 +13,7 @@
     "titulo": "Andahua",
     "imagen": "../img/andagua.jpg",
     "url":"distritos/andagua.html",
-    "info":"a",
+    "info":"Para llegar al Distrito de Andagua, ubicado en el Valle de los Volcanes en la provincia de Castilla, Arequipa, puedes usar coche o autobus.",
     "carro":"El viaje en coche desde Arequipa a Andagua dura alrededor de 5 horas y 10 minutos. ​La distancia por carretera es de aproximadamente 255 km.",
     "bus":"El viaje en autobús desde Arequipa a Andagua dura aproximadamente entre 8 y 9 horas. ​Empresas como Transportes Trebol y Transportes Inmaculada ofrecen servicios en esta ruta. ​El punto de partida es la ciudad de Arequipa y el punto de llegada es el Terminal de Andagua.",
     "walk":""
@@ -34,7 +34,7 @@
     "descripcion": "Distrito alto andino con clima frío y marcadas tradiciones campesinas.",
     "imagen": "../img/chilcaymarca.jpg",
     "url":"distritos/chilcaymarca.html",
-    "info":"a",
+    "info":"El distrito de Chilcaymarca, ubicado en la provincia de Castilla, en el departamento de Arequipa. Se encuentra a una altitud de 3.893 metros sobre el nivel del mar.",
     "carro":"El viaje en coche desde Arequipa a Chilcaymarca tiene una duración aproximada de 6 horas y 9 minutos, con una distancia de 287.9 km.",
     "bus":"La forma más común es tomar un autobús desde Arequipa hasta Orcopampa. El viaje dura aproximadamente 8 horas e incluye transbordos. Hay empresas como Transportes Reyna que cubren esta ruta. Una vez en Orcopampa, Chilcaymarca queda a unos 15 minutos en otro medio de transporte local.",
     "walk":""
@@ -44,9 +44,9 @@
     "descripcion": "Conocido como 'La Joya Escondida de Castilla', es una zona rural de altiplano con paisajes tranquilos y comunidades agrícolas.",
     "imagen": "../img/choco.jpg",
     "url":"distritos/choco.html",
-    "info":"a",
-    "carro":"",
-    "bus":"a",
+    "info":"El Distrito de Choco se encuentra en la provincia de Castilla, en el departamento de Arequipa, Perú. El acceso a la capital del distrito se realiza a través de un camino de herradura en mal estado de conservación.",
+    "carro":"El viaje desde Arequipa a Choco es de aproximadamente 226 km y toma unas 4 horas y 41 minutos.",
+    "bus":"La forma más económica de llegar es en autobús de Arequipa a Cabanaconde, un viaje de aproximadamente 7 horas.",
     "walk":""
   },
   "huancarqui": {
@@ -54,7 +54,7 @@
     "descripcion": "Conocido como 'Tierra de Brujas', es un distrito ubicado en el valle de Castilla Baja, con una importante actividad agrícola.",
     "imagen": "../img/huancarqui.jpg",
     "url":"distritos/huancarqui.html",
-    "info":"a",
+    "info":"El distrito de Huancarqui se encuentra en el departamento de Arequipa, dentro del majestuoso Valle de Majes y forma parte de la provincia de Castilla. La forma más común de llegar desde la ciudad de Arequipa es por carretera, ya sea en autobús o en coche.",
     "carro":"El viaje en coche desde Arequipa hasta Huancarqui es de aproximadamente 180 km y toma alrededor de 3 horas.",
     "bus":"El trayecto dura aproximadamente 4 horas y 5 minutos. Hay empresas como Romeliza que ofrecen este servicio. Una vez en Aplao, puedes tomar un colectivo o taxi hasta Huancarqui, que se encuentra a unos 15 minutos de distancia.",
     "walk":""
@@ -84,7 +84,7 @@
     "descripcion": "Zona de altiplano con vestigios arqueológicos y tradición agrícola.",
     "imagen": "../img/pampacolca.jpg",
     "url":"distritos/pampacolca.html",
-    "info":"a",
+    "info":"El distrito de Pampacolca se encuentra en la provincia de Castilla, en el departamento de Arequipa, Perú. Se ubica a 2,950 metros sobre el nivel del mar, en la cuenca formada por el nevado Coropuna. ​Para llegar a Pampacolca desde Arequipa, tienes dos opciones principales.",
     "carro":"La distancia por carretera es de unos 252 km. ​El viaje en coche dura aproximadamente 4 horas y 25 minutos. ​La ruta pasa por el Valle de Majes, Tipán y Yato.",
     "bus":"Es la mejor opción si no tienes coche.​Puedes tomar un autobús desde Arequipa hasta Chuquibamba, lo que lleva alrededor de 6 horas.​Empresas como Transportes Inmaculada y Transportes Ángeles Tour ofrecen este servicio.",
     "walk":""
@@ -94,7 +94,7 @@
     "descripcion": "Conocido como 'Paisaje Natural de Castilla', es un distrito agrícola rodeado de paisajes interandinos templados.",
     "imagen": "../img/tipan.jpg",
     "url":"distritos/tipan.html",
-    "info":"a",
+    "info":"El distrito de Tipán se encuentra en la provincia de Castilla, Arequipa, y se puede llegar a él en coche o a pie.",
     "carro":"La distancia es de aproximadamente 43.1 km, con un tiempo estimado de viaje de 59 minutos por la carretera AR-106.",
     "bus":"a",
     "walk":"El viaje a pie es de unos 43.1 km y tiene una duración aproximada de 10 horas y 29 minutos."
@@ -104,7 +104,7 @@
     "descripcion": "Pequeño distrito de alta montaña, con una población reducida y paisajes tranquilos.",
     "imagen": "../img/uñon.png",
     "url":"distritos/uñon.html",
-    "info":"a",
+    "info":"El distrito se llama Uñón y forma parte de la provincia de Castilla, en el departamento de Arequipa. Para llegar a Uñón, el viaje se realiza por carretera y generalmente se divide en dos tramos.",
     "carro":"El viaje en coche desde Arequipa a la provincia de Castilla toma alrededor de 6 horas y 46 minutos. La ruta pasa por Cotahuasi, Chuquibamba y Aplao, donde se conecta con la Panamericana Sur.",
     "bus":"Puedes tomar un autobús desde Arequipa hasta Aplao, la capital de la provincia de Castilla. El trayecto dura aproximadamente 5 horas. ​Desde Aplao a Uñón: El distrito de Uñón se encuentra en la zona conocida como Castilla Media. La vía de acceso principal a la provincia de Castilla es la que pasa por Cotahuasi.",
     "walk":""
@@ -124,7 +124,7 @@
     "descripcion": "Conocido como 'La Capital Taurina del Sur del Perú', es un Distrito de Castilla Media, con tradiciones culturales y festividades religiosas.",
     "imagen": "../img/viraco.jpg",
     "url":"distritos/viraco.html",
-    "info":"a",
+    "info":"Para llegar al distrito de Viraco, ubicado en la provincia de Castilla, Arequipa, puedes considerar viajar en bus o en carro.",
     "carro":"Es la opción más rápida para viajar desde Arequipa. ​El trayecto dura aproximadamente 4 horas y 7 minutos. ​La distancia por carretera es de 253.4 km. ​El costo estimado del viaje es de entre $39 y $55.",
     "bus":"Una ruta posible es tomar un autobús desde Arequipa hasta Chuquibamba, con una duración de unas 6 horas y 14 minutos. ​El costo estimado de este viaje es entre $80 y $95. ​También hay una ruta vía Chachas que puede tomar alrededor de 9 horas y 5 minutos.",
     "walk":""
