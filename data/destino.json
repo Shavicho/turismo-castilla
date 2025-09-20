@@ -1,0 +1,143 @@
+{
+  "aplao": {
+    "titulo": "Aplao",
+    "imagen": "../img/aplao.jpg",
+    "info": "Aplao es la capital de la provincia de Castilla, conocida por sus paisajes y producción agrícola.",
+    "carro": "El viaje desde Arequipa en carro toma alrededor de 4 horas y 41 minutos (226 km).",
+    "bus": "La forma más económica es en bus de Arequipa a Cabanaconde (~7 horas).",
+    "walk": "Existen caminos de herradura antiguos, pero en mal estado de conservación.",
+    "url": "distritos/aplao.html"
+    },
+
+  "andahua": {
+    "titulo": "Andahua",
+    "imagen": "../img/andagua.jpg",
+    "url":"distritos/andagua.html",
+    "info":"a",
+    "carro":"El viaje en coche desde Arequipa a Andagua dura alrededor de 5 horas y 10 minutos. ​La distancia por carretera es de aproximadamente 255 km.",
+    "bus":"El viaje en autobús desde Arequipa a Andagua dura aproximadamente entre 8 y 9 horas. ​Empresas como Transportes Trebol y Transportes Inmaculada ofrecen servicios en esta ruta. ​El punto de partida es la ciudad de Arequipa y el punto de llegada es el Terminal de Andagua.",
+    "walk":""
+
+  },
+  "ayo": {
+    "titulo": "Ayo",
+    "descripcion": "Conocido como 'El Paraiso Escondido de Castilla', es un distrito pequeño con paisajes de altiplano y cultura rural ancestral.",
+    "imagen": "../img/ayo.jpg",
+    "url":"distritos/ayo.html",
+    "info":"​Municipalidad Distrital de Ayo\n​Central telefónica: 967670949​\n\nEntidades de Salud (Microrred de Salud)​\nPuesto de Salud Ayo: (51) 967670949​\n​Números de Emergencia Generales (números nacionales)​\n​Policía Nacional del Perú (PNP): 105​\n​Bomberos: 116​\n​Central de Emergencia Mujer (CEM): 100​\n​Defensa Civil: 115",
+    "carro":"Es la opción más rápida, con un tiempo de viaje de aproximadamente 4 horas y 12 minutos. ​La distancia por carretera es de 219.8 km. ​El costo estimado del viaje en coche es entre $33 y $48.",
+    "bus":"Es la opción más económica para viajar sin coche. ​Una ruta sugerida es tomar un autobús desde Arequipa hasta Cabanaconde, lo que toma alrededor de 7 horas y 52 minutos. El costo se estima entre $57 y $75. ​Otra opción es tomar un autobús desde Arequipa hasta Chachas, con una duración aproximada de 8 horas y 31 minutos. ​El tiempo promedio total del viaje en autobús de Arequipa a Ayo es de 13 horas.",
+    "walk":""
+  },
+  "chilcaymarca": {
+    "titulo": "Chilcaymarca",
+    "descripcion": "Distrito alto andino con clima frío y marcadas tradiciones campesinas.",
+    "imagen": "../img/chilcaymarca.jpg",
+    "url":"distritos/chilcaymarca.html",
+    "info":"a",
+    "carro":"El viaje en coche desde Arequipa a Chilcaymarca tiene una duración aproximada de 6 horas y 9 minutos, con una distancia de 287.9 km.",
+    "bus":"La forma más común es tomar un autobús desde Arequipa hasta Orcopampa. El viaje dura aproximadamente 8 horas e incluye transbordos. Hay empresas como Transportes Reyna que cubren esta ruta. Una vez en Orcopampa, Chilcaymarca queda a unos 15 minutos en otro medio de transporte local.",
+    "walk":""
+  },
+  "choco": {
+    "titulo": "Choco",
+    "descripcion": "Conocido como 'La Joya Escondida de Castilla', es una zona rural de altiplano con paisajes tranquilos y comunidades agrícolas.",
+    "imagen": "../img/choco.jpg",
+    "url":"distritos/choco.html",
+    "info":"a",
+    "carro":"",
+    "bus":"a",
+    "walk":""
+  },
+  "huancarqui": {
+    "titulo": "Huancarqui",
+    "descripcion": "Conocido como 'Tierra de Brujas', es un distrito ubicado en el valle de Castilla Baja, con una importante actividad agrícola.",
+    "imagen": "../img/huancarqui.jpg",
+    "url":"distritos/huancarqui.html",
+    "info":"a",
+    "carro":"El viaje en coche desde Arequipa hasta Huancarqui es de aproximadamente 180 km y toma alrededor de 3 horas.",
+    "bus":"El trayecto dura aproximadamente 4 horas y 5 minutos. Hay empresas como Romeliza que ofrecen este servicio. Una vez en Aplao, puedes tomar un colectivo o taxi hasta Huancarqui, que se encuentra a unos 15 minutos de distancia.",
+    "walk":""
+  },
+  "machaguay": {
+    "titulo": "Machaguay",
+    "descripcion": "Distrito de altiplano con poblaciones pequeñas y herencia campesina.",
+    "imagen": "../img/machahuay.jpg",
+    "url": "distritos/machaguay.html",
+    "info": "Municipalidad Distrital de Machaguay:\nTeléfono: 915078407\nCorreo electrónico: municipalidaddemachaguay@gmail.com\nDirección: Plaza de Armas s/n - Machaguay, Castilla, Arequipa.\n\nPuesto de Salud de Machaguay:\nTeléfono: 984779968",
+    "carro": "El viaje desde Arequipa hasta Machaguay en coche toma aproximadamente 3 horas.",
+    "bus": "La ruta de autobús desde Arequipa a Machaguay suele implicar un transbordo. Puedes tomar un autobús desde Arequipa hasta Chuquibamba y de ahí tomar otro transporte hasta Machaguay.",
+    "walk": ""
+  },
+  "orcopampa": {
+    "titulo": "Orcopampa",
+    "descripcion": "Conocido como 'Un Secreto Escondido en la Región de Arequipa', esta ubicado en altura, destaca por las actividades mineras y su entorno andino.",
+    "imagen": "../img/orcopampa.png",
+    "url":"distritos/orcopampa.html",
+    "info":"Municipalidad Distrital de Orcopampa:\n​Teléfonos: 953268672 y 957880150\nDirección: Rosa de Lima S/N, Plaza Principal.​\n\nCentro de Salud de Orcopampa:​\nTeléfono: 967670949​\nDirección: Avenida Buenaventura S/N.",
+    "carro":"El viaje en coche desde Arequipa a Orcopampa dura alrededor de 6 horas y 13 minutos. ​La distancia por carretera es de 291.6 km.",
+    "bus":"El viaje desde Arequipa a Orcopampa dura aproximadamente 8 horas. ​Hay autobuses directos que salen cada 3 horas. ​Empresas como Transportes Reyna ofrecen este servicio. ​El precio del pasaje oscila entre $12 y $22.",
+    "walk":""
+  },
+  "pampacolca": {
+    "titulo": "Pampacolca",
+    "descripcion": "Zona de altiplano con vestigios arqueológicos y tradición agrícola.",
+    "imagen": "../img/pampacolca.jpg",
+    "url":"distritos/pampacolca.html",
+    "info":"a",
+    "carro":"La distancia por carretera es de unos 252 km. ​El viaje en coche dura aproximadamente 4 horas y 25 minutos. ​La ruta pasa por el Valle de Majes, Tipán y Yato.",
+    "bus":"Es la mejor opción si no tienes coche.​Puedes tomar un autobús desde Arequipa hasta Chuquibamba, lo que lleva alrededor de 6 horas.​Empresas como Transportes Inmaculada y Transportes Ángeles Tour ofrecen este servicio.",
+    "walk":""
+  },
+  "tipan": {
+    "titulo": "Tipán",
+    "descripcion": "Conocido como 'Paisaje Natural de Castilla', es un distrito agrícola rodeado de paisajes interandinos templados.",
+    "imagen": "../img/tipan.jpg",
+    "url":"distritos/tipan.html",
+    "info":"a",
+    "carro":"La distancia es de aproximadamente 43.1 km, con un tiempo estimado de viaje de 59 minutos por la carretera AR-106.",
+    "bus":"a",
+    "walk":"El viaje a pie es de unos 43.1 km y tiene una duración aproximada de 10 horas y 29 minutos."
+  },
+  "unon": {
+    "titulo": "Uñón",
+    "descripcion": "Pequeño distrito de alta montaña, con una población reducida y paisajes tranquilos.",
+    "imagen": "../img/uñon.png",
+    "url":"distritos/uñon.html",
+    "info":"a",
+    "carro":"El viaje en coche desde Arequipa a la provincia de Castilla toma alrededor de 6 horas y 46 minutos. La ruta pasa por Cotahuasi, Chuquibamba y Aplao, donde se conecta con la Panamericana Sur.",
+    "bus":"Puedes tomar un autobús desde Arequipa hasta Aplao, la capital de la provincia de Castilla. El trayecto dura aproximadamente 5 horas. ​Desde Aplao a Uñón: El distrito de Uñón se encuentra en la zona conocida como Castilla Media. La vía de acceso principal a la provincia de Castilla es la que pasa por Cotahuasi.",
+    "walk":""
+  },
+  "uraca": {
+    "titulo": "Uraca-Corire",
+    "descripcion": "Conocido como 'La Perla del Valle de Majes', es un distrito ubicado en el valle de Majes, con historia preincaica y petroglifos como su principal atractivo.",
+    "imagen": "../img/corire.png",
+    "url":"distritos/uraca.html",
+    "info":"​Municipalidad Distrital de Uraca:​\nTeléfono: 054-472282\n​Correo electrónico: mesadepartesvirtualmdu@gmail.com\n\nNúmeros de emergencia:\n​Centro de Salud Corire: 054-42042\n​Serenazgo Corire: 958413566\n​Comisaría Rural de la PNP Uraca - Corire:Av. Juan Pablo Vizcardo y Guzmán, N° 315, Corire.",
+    "carro":"La ruta en auto es de 158 km y el tiempo de viaje es de aproximadamente 2 horas y 42 minutos. La ruta principal es por la Carretera Panamericana Sur (PE-1S) y la AR-105.",
+    "bus":"Hay un servicio de autobús directo de Arequipa a Corire. Las empresas de autobuses que ofrecen este servicio son Transportes del Carpio y Romeliza. El viaje dura alrededor de 3 horas y 27 minutos y el costo estimado es de 6$. Los servicios de Transportes del Carpio salen cada 3 horas y los de Romeliza salen 4 veces al día.",
+    "walk":"El trayecto a pie es mucho más largo y no se recomienda. La distancia es de 177 km y el tiempo de viaje es de 1 día y 15 horas."
+  },
+  "viraco": {
+    "titulo": "Viraco",
+    "descripcion": "Conocido como 'La Capital Taurina del Sur del Perú', es un Distrito de Castilla Media, con tradiciones culturales y festividades religiosas.",
+    "imagen": "../img/viraco.jpg",
+    "url":"distritos/viraco.html",
+    "info":"a",
+    "carro":"Es la opción más rápida para viajar desde Arequipa. ​El trayecto dura aproximadamente 4 horas y 7 minutos. ​La distancia por carretera es de 253.4 km. ​El costo estimado del viaje es de entre $39 y $55.",
+    "bus":"Una ruta posible es tomar un autobús desde Arequipa hasta Chuquibamba, con una duración de unas 6 horas y 14 minutos. ​El costo estimado de este viaje es entre $80 y $95. ​También hay una ruta vía Chachas que puede tomar alrededor de 9 horas y 5 minutos.",
+    "walk":""
+  },  
+  "chachas": {
+    "titulo": "Chachas",
+    "descripcion": "Conocido como 'La Perla de Castilla', es famoso por su laguna pintoresca y tradiciones andinas.",
+    "imagen": "../img/chachas.jpg",
+    "url":"distritos/chachas.html",
+    "info":"​Municipalidad Distrital de Chachas​\nCentral telefónica: 959681758​\n\nNúmeros de Emergencia y Otros Contactos (números nacionales)​\nPolicía Nacional del Perú (PNP): 105​\nBomberos: 116​\nCentral de Emergencia Mujer (CEM): 100",
+    "carro":"El viaje en coche dura aproximadamente 5 horas y 13 minutos. ​La distancia por carretera es de unos 253 km. ​Una de las rutas mencionadas es Arequipa-Aplao-Andagua, que es una carretera asfaltada de 498.5 km, y luego una vía de 16 km sin asfaltar desde Andagua a Chachas.",
+    "bus":"Es la mejor opción para viajar sin coche. ​Hay un servicio de autobús directo de Arequipa a Chachas.​El viaje dura aproximadamente 7 horas y 30 minutos. ​La empresa Transportes Inmaculada ofrece este servicio, con dos salidas diarias.",
+    "walk":""
+  }
+}
+
