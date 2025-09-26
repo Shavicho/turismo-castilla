@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     console.log('Tours Arequipa - Script cargado correctamente ✅');
 });
+
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("grid-container");
 
@@ -48,8 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
           },
           { 
             type: 'walk', 
-            icon: 'fas fa-walking', 
-            title: 'Caminando',
+            icon: 'fas fa-images', 
+            title: 'Ver imagen', // Cambié el título
             condition: distrito.walk 
           }
         ];
@@ -81,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const cardBack = document.createElement("div");
         cardBack.classList.add("card-back");
 
-        const backContent = document.createElement("p");
+        const backContent = document.createElement("div"); // Cambié de <p> a <div>
         backContent.textContent = distrito.info || distrito.descripcion || "Información no disponible";
         cardBack.appendChild(backContent);
 
@@ -90,23 +91,43 @@ document.addEventListener("DOMContentLoaded", () => {
         card.appendChild(cardInner);
         container.appendChild(card);
 
-        // Eventos de los iconos - Solo para mostrar información específica
+        // Eventos de los iconos - Manejo especial para 'walk'
         iconBar.querySelectorAll("i").forEach(icon => {
           icon.addEventListener("click", (e) => {
             e.stopPropagation();
             const type = icon.dataset.type;
             
-            // IMPORTANTE: Limpiar todas las clases primero
+            // IMPORTANTE: Limpiar todas las clases y contenido primero
             backContent.className = '';
+            backContent.innerHTML = ''; // Limpia tanto texto como HTML
             
-            // Mostrar la parte trasera con el contenido del JSON
-            const content = distrito[type] || "Información no disponible";
-            backContent.textContent = content;
-            
-            // CLAVE: Agregar clase especial SOLO para "info"
-            if (type === 'info') {
-              backContent.classList.add('info-text');
-              console.log("Clase info-text agregada"); // Debug
+            if (type === 'walk') {
+              // ESPECIAL: Para 'walk' mostrar imagen
+              if (distrito.walk) {
+                const imagen = document.createElement("img");
+                imagen.src = distrito.walk; // El JSON debe contener la URL de la imagen
+                imagen.alt = "Imagen de " + distrito.titulo;
+                imagen.style.cssText = `
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  border-radius: 8px;
+                `;
+                backContent.appendChild(imagen);
+                backContent.classList.add('image-container');
+              } else {
+                backContent.textContent = "Imagen no disponible";
+              }
+            } else {
+              // Para otros tipos: mostrar texto como antes
+              const content = distrito[type] || "Información no disponible";
+              backContent.textContent = content;
+              
+              // Agregar clase especial SOLO para "info"
+              if (type === 'info') {
+                backContent.classList.add('info-text');
+                console.log("Clase info-text agregada"); // Debug
+              }
             }
             
             console.log(`Mostrando tipo: ${type}, clases: ${backContent.className}`); // Debug
@@ -133,6 +154,7 @@ const menu = document.getElementById('menu');
 toggleButton.addEventListener('click', () => {
   menu.classList.toggle('show');
 });
+
 // Crear botón "volver arriba"
 function createBackToTopButton() {
     const backToTopBtn = document.createElement('button');

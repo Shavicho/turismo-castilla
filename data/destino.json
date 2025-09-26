@@ -16,7 +16,7 @@
     "info":"Para llegar al Distrito de Andagua, ubicado en el Valle de los Volcanes en la provincia de Castilla, Arequipa, puedes usar coche o autobus.",
     "carro":"El viaje en coche desde Arequipa a Andagua dura alrededor de 5 horas y 10 minutos. ​La distancia por carretera es de aproximadamente 255 km.",
     "bus":"El viaje en autobús desde Arequipa a Orcopampa dura aproximadamente entre 8 y 9 horas. ​Empresas como Transportes Trebol y Transportes Inmaculada ofrecen servicios en esta ruta. ​El punto de partida es la ciudad de Arequipa y el punto de llegada es el Terminal de Andagua.",
-    "walk":""
+    "walk":"../img/ruta.png"
 
   },
   "ayo": {
@@ -67,7 +67,7 @@
     "info": "Municipalidad Distrital de Machaguay:\nTeléfono: 915078407\nCorreo electrónico: municipalidaddemachaguay@gmail.com\nDirección: Plaza de Armas s/n - Machaguay, Castilla, Arequipa.\n\nPuesto de Salud de Machaguay:\nTeléfono: 984779968",
     "carro": "El viaje desde Arequipa hasta Machaguay en coche toma aproximadamente 3 horas.",
     "bus": "La ruta de autobús desde Arequipa a Machaguay es directa en Transportes Trébol, que parte del Terrapuerto de Arequipa.",
-    "walk": ""
+    "walk": "../img/ruta.png"
   },
   "orcopampa": {
     "titulo": "Orcopampa",
@@ -117,7 +117,7 @@
     "info":"​Municipalidad Distrital de Uraca:​\nTeléfono: 054-472282\n​Correo electrónico: mesadepartesvirtualmdu@gmail.com\n\nNúmeros de emergencia:\n​Centro de Salud Corire: 054-42042\n​Serenazgo Corire: 958413566\n​Comisaría Rural de la PNP Uraca - Corire:Av. Juan Pablo Vizcardo y Guzmán, N° 315, Corire.",
     "carro":"La ruta en auto es de 158 km y el tiempo de viaje es de aproximadamente 2 horas y 42 minutos. La ruta principal es por la Carretera Panamericana Sur (PE-1S) y la AR-105.",
     "bus":"Hay un servicio de autobús directo de Arequipa a Corire. Las empresas de autobuses que ofrecen este servicio son Transportes del Carpio. El viaje dura alrededor de 3 horas y 27 minutos y el costo estimado es de 6$. Los servicios de Transportes del Carpio salen cada 3 horas y los de Romeliza salen 4 veces al día.",
-    "walk":"El trayecto a pie es mucho más largo y no se recomienda. La distancia es de 177 km y el tiempo de viaje es de 1 día y 15 horas."
+    "walk":""
   },
   "viraco": {
     "titulo": "Viraco",
@@ -127,7 +127,7 @@
     "info":"Para llegar al distrito de Viraco, ubicado en la provincia de Castilla, Arequipa, puedes considerar viajar en bus o en carro.",
     "carro":"Es la opción más rápida para viajar desde Arequipa. ​El trayecto dura aproximadamente 4 horas y 7 minutos. ​La distancia por carretera es de 253.4 km. ​El costo estimado del viaje es de entre $39 y $55.",
     "bus":"Una ruta posible es tomar un autobús desde Arequipa hasta Chuquibamba, con una duración de unas 6 horas y 14 minutos. ​El costo estimado de este viaje es entre $80 y $95. También hay una ruta vía Chachas y puedes comprar el boleto de viaje Transportes Trebol, ruta Arequipa - Chachas, con una duración de 6 horas 14 minutos. ",
-    "walk":""
+    "walk":"../img/ruta.png"
   },  
   "chachas": {
     "titulo": "Chachas",
@@ -137,7 +137,7 @@
     "info":"​Municipalidad Distrital de Chachas​\nCentral telefónica: 959681758​\n\nNúmeros de Emergencia y Otros Contactos (números nacionales)​\nPolicía Nacional del Perú (PNP): 105​\nBomberos: 116​\nCentral de Emergencia Mujer (CEM): 100",
     "carro":"El viaje en coche dura aproximadamente 5 horas y 13 minutos. ​La distancia por carretera es de unos 253 km. ​Una de las rutas mencionadas es Arequipa-Aplao-Andagua, que es una carretera asfaltada de 498.5 km, y luego una vía de 16 km sin asfaltar desde Andagua a Chachas.",
     "bus":"Es la mejor opción para viajar sin coche. ​Hay un servicio de autobús directo de Arequipa a Chachas.​El viaje dura aproximadamente 7 horas y 30 minutos. ​La empresa Transportes Inmaculada ofrece este servicio, con dos salidas diarias.",
-    "walk":""
+    "walk":"../img/ruta.png"
   }
 }
 

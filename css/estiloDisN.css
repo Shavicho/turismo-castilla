@@ -251,7 +251,7 @@ section h2::after {
 }
 
 .accordion-body.open {
-    max-height: 500px;
+    max-height: 1200px;
     padding: 1.5rem;
 }
 
