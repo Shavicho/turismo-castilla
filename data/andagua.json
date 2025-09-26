@@ -17,7 +17,14 @@
         "img": "../img/antaymarca.jpg",
         "alt": "antaymarca",
         "descripcion": "Ruinas arqueológicas con restos de construcciones prehispánicas, ubicadas cerca de Andagua. "
+    },
+    {
+      "titulo": "Volcán Puca Mauras",
+      "img": "../img/volcanPucaMauras.jpg",
+      "alt": "Volcán Puca Mauras",
+      "descripcion": "El volcán Puca Mauras, destacado entre los conos volcánicos conocidos como 'hormitos', llama la atención por su tonalidad rojiza y la perfección de su cumbre. Su ascenso es una experiencia inolvidable para los amantes del trekking y la aventura, ya que desde lo alto se pueden apreciar vistas panorámicas que revelan la imponencia del valle y el contraste de los paisajes andinos.\n\nDato curioso:\nEl nombre 'Puca' proviene del quechua y significa rojo, en alusión al color característico de sus laderas volcánicas."
     }
+
   ],
   "actividades": [
     {

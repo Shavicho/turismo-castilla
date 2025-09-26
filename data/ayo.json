@@ -29,7 +29,14 @@
         "img": "../img/cerro ccotojahuana.jpeg",
         "alt": "Cerro Ccotojahuana",
         "descripcion": "Un cerro con paisajes impresionantes y vistas panorámicas del valle. Ayo, al ser parte del Geoparque Colca y Volcanes de Andagua, ofrece una experiencia turística única que combina naturaleza, cultura y aventura."
+    },
+    {
+      "titulo": "Laguna Mamacocha",
+      "img": "../img/lagunaMamacocha.png",
+      "alt": "Laguna Mamacocha",
+      "descripcion": "La laguna de Mamacocha en Arequipa es de origen subterráneo, formándose como el afloramiento de un acuífero confinado en el valle de Ayo. Su nacimiento está influenciado por la geología volcánica de la región, y se nutre de las aguas subterráneas, siendo considerada por el Parlamento Andino la laguna de manantial más grande del mundo y una maravilla natural. Se encuentra ubicada en el distrito de Ayo, provincia de Castilla, en Arequipa. También es conocida como El tesoro escondido de Ayo. Alberga una variedad de aves y peces, y su rebose da origen al río del mismo nombre.\n\nEn junio de 2019, fue declarada por la Comunidad Andina como maravilla natural, al considerarla la laguna de manantial más grande del mundo.\n\nDato curioso:\nEs el hogar de la nutria del Pacífico en peligro de extinción, forma parte del Geoparque Colca y tiene un significado espiritual como representante de la Madre Agua en la cosmovisión andina."
     }
+
   ],
   "actividades": [
     {

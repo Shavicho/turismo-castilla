@@ -253,3 +253,55 @@ body {
 }
 
 
+
+
+
+/*acordeon*/
+.accordion {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  background: #fff8dc;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.accordion-header {
+  background: #f6d365;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.accordion-header:hover {
+  background: #f3c74a;
+}
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 15px;
+}
+
+.accordion-body.open {
+  max-height: 2000px; /* Ajusta según lo que necesites */
+  padding: 15px;
+}
+.accordion ul {
+  list-style: none; /* quita los puntos normales SOLO dentro del acordeón */
+  padding-left: 0;
+}
+
+.accordion ul li::before {
+  content: "📌 "; /* el nuevo símbolo */
+  margin-right: 8px;
+}
+

@@ -1,3 +1,10 @@
+document.addEventListener('DOMContentLoaded', function() {
+    
+    // Crear botón "volver arriba"
+    createBackToTopButton();
+    
+    console.log('Tours Arequipa - Script cargado correctamente ✅');
+});
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("grid-container");
 
@@ -53,3 +60,21 @@ const menu = document.getElementById('menu');
 toggleButton.addEventListener('click', () => {
   menu.classList.toggle('show');
 });
+// Crear botón "volver arriba"
+function createBackToTopButton() {
+    const backToTopBtn = document.createElement('button');
+    backToTopBtn.className = 'back-to-top';
+    backToTopBtn.innerHTML = '↑';
+    backToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    
+    document.body.appendChild(backToTopBtn);
+    
+    // Mostrar/ocultar botón según scroll
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+            backToTopBtn.classList.add('show');
+        } else {
+            backToTopBtn.classList.remove('show');
+        }
+    });
+}

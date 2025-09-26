@@ -1,0 +1,652 @@
+/* Reset y estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2c5aa0 0%, #4a90a4 100%);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Main content */
+main {
+    padding: 2rem 0;
+}
+
+/* Tour Cards */
+.tour-card {
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tour-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Tour Header */
+.tour-header {
+    background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.tour-badge {
+    background: #e74c3c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.tour-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.tour-location {
+    font-size: 1rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Tour Content */
+.tour-content {
+    padding: 2rem;
+}
+
+/* Tour Info Section */
+.tour-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.price-section {
+    text-align: center;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin: 0.5rem 0;
+}
+
+.summary-section ul {
+    list-style: none;
+}
+
+.summary-section li {
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.summary-section li:last-child {
+    border-bottom: none;
+}
+
+/* Includes Section */
+.includes-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.includes, .not-includes {
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.includes {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.not-includes {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.includes h3 {
+    color: #155724;
+    margin-bottom: 1rem;
+}
+
+.not-includes h3 {
+    color: #721c24;
+    margin-bottom: 1rem;
+}
+
+.includes ul, .not-includes ul {
+    list-style: none;
+}
+
+.includes li, .not-includes li {
+    padding: 0.3rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.includes li:before {
+    content: "✓";
+    color: #28a745;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.not-includes li:before {
+    content: "✗";
+    color: #dc3545;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Places Section */
+.places-section {
+    margin-bottom: 2rem;
+}
+
+.places-section h3 {
+    color: #2c5aa0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.places-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.places-list li {
+    background: #e8f4fd;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border-left: 4px solid #2c5aa0;
+    transition: background-color 0.3s ease;
+}
+
+.places-list li:hover {
+    background: #d1ecf1;
+}
+
+/* Itinerary Section */
+.itinerary-section {
+    margin-bottom: 2rem;
+}
+
+.itinerary-section h3 {
+    color: #2c5aa0;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #2c5aa0;
+    padding-bottom: 0.5rem;
+}
+
+.itinerary-section h4 {
+    color: #34495e;
+    margin: 1.5rem 0 1rem 0;
+    font-size: 1.2rem;
+    background: #f8f9fa;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border-left: 4px solid #e74c3c;
+}
+
+.itinerary-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.itinerary-item strong {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Image Placeholders */
+.image-placeholder {
+    background: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    border-radius: 8px;
+    padding: 3rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #6c757d;
+    font-style: italic;
+    transition: all 0.3s ease;
+}
+
+.image-placeholder:hover {
+    background: #e9ecef;
+    border-color: #adb5bd;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.image-gallery .image-placeholder {
+    margin: 0;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+}
+
+/* Items Section */
+.items-section {
+    background: #fff3cd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ffeaa7;
+}
+
+.items-section h3 {
+    color: #856404;
+    margin-bottom: 1rem;
+}
+
+.items-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.items-list li {
+    background: white;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border-left: 4px solid #ffc107;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.items-list li:before {
+    content: "📝";
+    position: absolute;
+    left: 0.5rem;
+    top: 0.8rem;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+/* Estilos adicionales para funcionalidades JavaScript */
+.quick-nav {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.nav-container h3 {
+    color: #2c5aa0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav-btn {
+    background: linear-gradient(135deg, #2c5aa0 0%, #4a90a4 100%);
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    min-width: 150px;
+}
+
+.nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(44, 90, 160, 0.3);
+    background: linear-gradient(135deg, #1a365d 0%, #2c5aa0 100%);
+}
+
+.nav-btn span {
+    font-size: 1.1rem;
+    color: #ffc107;
+    display: block;
+    margin-top: 0.3rem;
+}
+
+.contact-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: white;
+}
+
+.whatsapp-btn:hover {
+    background: #128C7E;
+    transform: translateY(-2px);
+}
+
+.email-btn {
+    background: #EA4335;
+    color: white;
+}
+
+.email-btn:hover {
+    background: #d33b2c;
+    transform: translateY(-2px);
+}
+
+.phone-btn {
+    background: #4285F4;
+    color: white;
+}
+
+.phone-btn:hover {
+    background: #3367d6;
+    transform: translateY(-2px);
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: #2c5aa0;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(44, 90, 160, 0.3);
+}
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background: #1a365d;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(44, 90, 160, 0.4);
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tour-card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.tour-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.tour-card:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-in {
+    animation: slideInUp 0.6s ease-out forwards;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .tour-info {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .includes-section {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .places-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .items-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .image-gallery {
+        grid-template-columns: 1fr;
+    }
+    
+    .price {
+        font-size: 2rem;
+    }
+    
+    .tour-content {
+        padding: 1rem;
+    }
+    
+    .tour-header {
+        padding: 1.5rem;
+    }
+    
+    .tour-header h2 {
+        font-size: 1.2rem;
+    }
+    
+    .nav-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .back-to-top {
+        bottom: 1rem;
+        right: 1rem;
+        width: 45px;
+        height: 45px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .tour-header h2 {
+        font-size: 1.1rem;
+    }
+    
+    .price {
+        font-size: 1.8rem;
+    }
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Efectos hover mejorados */
+.itinerary-item:hover {
+    transform: translateX(5px);
+    border-left: 4px solid #2c5aa0;
+}
+
+.places-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.items-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  gap: 20px;               /* espacio entre imágenes */
+  margin-top: 20px;        /* opcional: separación del contenido arriba */
+}
+
+.tour-image {
+  width: 250px;            /* ancho fijo */
+  height: 180px;           /* alto fijo */
+  object-fit: cover;       /* recorta la imagen para llenar el espacio */
+  border-radius: 8px;      /* opcional: esquinas redondeadas */
+}
+@media (max-width: 600px) {
+  .image-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tour-image {
+    max-width: 90%;  /* ocupan casi todo el ancho del celular */
+    height: auto;    /* que ajusten la altura automáticamente */
+  }
+}

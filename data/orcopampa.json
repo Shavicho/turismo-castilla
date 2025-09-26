@@ -25,5 +25,20 @@
         "descripcion": "El Vivero Forestal de la Compañía Minera Buenaventura, ubicado en Orcopampa, Arequipa, tiene como objetivo principal la revegetación de áreas afectadas por actividades mineras. Este vivero, con un área aproximada de 12,470 metros cuadrados, cuenta con un invernadero que ayuda a mantener temperaturas entre 30° y 35°C para favorecer el crecimiento de las plantas. Entre las especies protegidas se encuentran la tola, chicchimpa y queñua. "
     }
     
+  ],
+  "actividades": [
+    {
+      "titulo": "Fiesta de Santa Cruz en Panahua",
+      "img": "../img/santaCruzPanahua.jpg",
+      "alt": "Fiesta de Santa Cruz en Panahua",
+      "descripcion": "Se celebra en mayo en la comunidad de Panahua con la reunión de comuneros en la Iglesia de la Santísima Cruz, donde los participantes visten trajes típicos y bailan la danza de los llameritos. La danza Llameritos de Panahua fue declarada Patrimonio Cultural de la Nación, mediante Resolución Viceministerial 197-2017. La danza muestra también la coexistencia armónica entre ritos andinos y católicos, y se baila generalmente en el mes de mayo, en la Fiesta de la Cruz."
+    },
+    {
+      "titulo": "Carnaval Sumac Tusuy",
+      "img": "../img/carnavalSumacTusuy.jpg",
+      "alt": "Carnaval Sumac Tusuy",
+      "descripcion": "Es el carnaval tradicional de Orcopampa, que se celebra con danzas, música en quechua y el uso de serpentinas y polvos, reafirmando la conexión con la Pachamama y los apus."
+    }
+
   ]
 }

@@ -56,6 +56,13 @@
       "img": "../img/coropuna.jpeg",
       "alt": "Reverencia al Nevado Coropuna",
       "descripcion": "El Coropuna es un nevado importante para la zona y se le rinde respeto y veneración. "
+    },
+    {
+      "titulo": "Fiesta patronal de Santa Úrsula - Virgen del Sombrero",
+      "img": "../img/virgenSombrero.png",
+      "alt": "Fiesta patronal de Santa Úrsula - Virgen del Sombrero",
+      "descripcion": "La fiesta principal de Viraco, Castilla (Arequipa, Perú) es la Fiesta patronal de Santa Úrsula, la Virgen del Sombrero, que se celebra principalmente del 20 al 24 de octubre. Las festividades incluyen misas, tardes taurinas, peleas de gallos y otras actividades culturales.\n\nDetalles de la festividad\n\n- Tardes Taurinas:\nViraco es conocido como la capital taurina del sur, y sus tardes taurinas son un evento destacado de la fiesta.\n\n- Peleas de Gallos:\nSon una tradición importante que se realiza en la festividad.\n\n- Misas:\nSe celebra la Santa Misa en honor a la Virgen del Sombrero.\n\n- Otros eventos:\nLa fiesta incluye diversas celebraciones religiosas, culturales y eventos populares."
     }
+
   ]
 }

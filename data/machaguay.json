@@ -31,5 +31,13 @@
         "alt": "Paisajes",
         "descripcion": "Machaguay es reconocido por sus atractivos naturales y culturales, incluyendo sus paisajes, restos arqueológicos y fuentes termales. "
     }
+  ],
+  "actividades": [
+    {
+      "titulo": "Carnavales",
+      "img": "../img/carnavalesMachaguay.jpg",
+      "alt": "Carnavales",
+      "descripcion": "Machaguay es reconocida como la cuna de los carnavales, una celebración llena de música de quenas y cajas, serpentinas, comparsas y la participación de la comunidad."
+    }
   ]
 }

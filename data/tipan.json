@@ -18,5 +18,14 @@
       "alt": "Piedras del Centro Ceremonial de Paranccayoc",
       "descripcion": "Localizadas a un costado de la vía de acceso hacia los andes de la provincia. Castilla se caracteriza por albergar formaciones y evidencias del pasado prehistórico de nuestro planeta, además de albergar 2 de los 3 únicos lugares donde existen ignitas o huellas de dinosaurio a nivel nacional."    
     }
+  ],
+  "actividades": [
+    {
+      "titulo": "Festival de la Fruta de Típán",
+      "img": "../img/festivalFrutaTipan.jpg",
+      "alt": "Festival de la Fruta de Típán",
+      "descripcion": "Es un evento que se celebra anualmente en el distrito de Típán, Arequipa, Perú, para difundir y celebrar la diversidad de frutas, derivados y platos típicos de la región, promoviendo su consumo y la riqueza de sus productos frutícolas. Incluye actividades como concursos, degustaciones y exhibiciones, y tiene como propósito resaltar la zona como un Edén Arequipeño y su tierra de historia y naturaleza."
+    }
+
   ]
 }

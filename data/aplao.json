@@ -50,7 +50,21 @@
       "img": "../img/majes river.jpg",
       "alt": "Canotaje",
       "descripcion": "En el río Majes, se practica sobre una embarcación ligera, la embarcación es propulsada por una o varias personas con una pala que van situadas de frente a la proa de la embarcación."
+    },
+    {
+      "titulo": "Festividad de la Virgen de las Peñas",
+      "img": "../img/virgenPenas.jpg",
+      "alt": "Festividad de la Virgen de las Peñas",
+      "descripcion": "Se celebra el 08 de septiembre y es una de las festividades más importantes de Aplao, con misas, procesiones, espectáculos pirotécnicos y demostraciones de devoción."
+    },
+    {
+      "titulo": "Aniversario de la Provincia de Castilla",
+      "img": "../img/aniversarioCastilla.jpg",
+      "alt": "Aniversario de la Provincia de Castilla",
+      "descripcion": "El aniversario de creación política de la Provincia de Castilla, en Arequipa, se celebra el 21 de marzo. En el año 2025 se celebró el 171° aniversario, ya que fue creada el 21 de marzo de 1854."
     }
+
+
     
   ],
   "gastronomia":[

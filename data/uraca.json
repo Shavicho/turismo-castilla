@@ -25,7 +25,14 @@
       "img": "../img/vendimia.png",
       "alt": "Vendimia",
       "descripcion": "El Festival de la Vendimia es una celebración emblemática del Valle de Majes, donde la cosecha de la uva se convierte en una fiesta de tradición, alegría y sabor. Cada año, productores, familias y visitantes se reúnen para rendir homenaje al fruto de la vid y al trabajo de quienes lo cultivan."
+    },
+    {
+    "titulo": "Aniversario de Corire",
+    "img": "../img/aniversarioCorire.jpg",
+    "alt": "Aniversario de Corire",
+    "descripcion": "Se conmemora el 1 de octubre, celebrando la elevación de Corire a capital del distrito de Uraca en 1915."
     }
+
     
     ],    
     "gastronomia":[

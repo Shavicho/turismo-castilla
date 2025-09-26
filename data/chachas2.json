@@ -37,7 +37,21 @@
       "img": "../img/virgen del carmen.jpg",
       "alt": "Fiesta Patronal  Virgen del  Carmen",
       "descripcion": "Del 13 al 19 de julio, ven y disfruta de una semana llena de: Fe y devoción, Música , Corridas de toros, Gastronomía típica y Actividades culturales y artísticas"
+    },
+    {
+      "titulo": "Semana Santa en Chachas",
+      "img": "../img/semanaSantaChachas.jpg",
+      "alt": "Semana Santa en Chachas",
+      "descripcion": "La Semana Santa en el distrito de Chachas, Arequipa, es una experiencia de fe y tradición que incluye procesiones y actos litúrgicos como el Sermón de las Siete Palabras, el Desclave de Jesús Crucificado, y la procesión del Santo Sepulcro, culminando a menudo con el compartir de mazamorra como símbolo de unidad comunitaria."
+    },
+    {
+      "titulo": "Carnaval de Nahuira",
+      "img": "../img/carnavalNahuira.jpg",
+      "alt": "Carnaval de Nahuira",
+      "descripcion": "El carnaval de Nahuira tiene su inicio con la entrada del tradicional carnavalón desde Huayñuna con el acompañamiento de la quena y el tambor y de hermosas mujeres llamadas Chasca y Equilas. Los hombres se visten de trajes creativos y burlescos como de diablo, brujo, negros, que se llaman jaqaras o jaqaritas. Los mayordomos invitan a todas las autoridades de Nahuira, se contrata banda de músicos y caravanas musicales para el acompañamiento de la yunza tradicional, que es un árbol adornado con todo tipo de regalos para que sea derrumbado con el hacha tradicional.\n\nCarnaval de Chachas marca chachas parece ser un eslogan o frase promocional para el Carnaval de Chachas, que organiza los carnavales de Chachas y Nahuira del 13 al 25 de febrero. La frase enfatiza la identidad cultural local y se asocia con las festividades y la cultura de Chachas."
     }
+
+
   ],
   "danzas": [
     {

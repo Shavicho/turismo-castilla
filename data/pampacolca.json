@@ -36,5 +36,44 @@
         "alt": "Puyas de Raimondi",
         "descripcion": "Una especie de planta endémica de los Andes, conocida por su impresionante altura."
     }
-  ]
+  ],
+  "actividades": [
+    {
+      "titulo": "Virgen de la Asunción",
+      "img": "../img/virgenAsuncion.jpg",
+      "alt": "Virgen de la Asunción",
+      "descripcion": "El 15 de agosto se conmemora la Virgen de la Asunción en Pampacolca, Arequipa, como patrona y protectora del pueblo desde su fundación. Esta fecha marca el aniversario de la asignación de la Virgen a la comunidad, un evento central que se vive con fe y devoción, reforzando la unidad y el compromiso de los fieles, y simbolizando la esperanza y la pureza para el pueblo."
+    },
+    {
+      "titulo": "Semana Santa",
+      "img": "../img/semanaSanta.png",
+      "alt": "Semana Santa",
+      "descripcion": "La Semana Santa de Pampacolca en Arequipa, Perú, fue declarada Patrimonio Cultural de la Nación el 26 de julio de 2021, según la Resolución Viceministerial N.° 180-2021-VMPCIC/MC, debido a que es una festividad que refleja un original proceso de sincretismo cultural y religioso entre elementos andinos y cristianos, con rituales como la organización de los cuarteles y la visita del testamento de Judas."
+    },
+    {
+      "titulo": "Señor de la Peña de Yato",
+      "img": "../img/senorPenaYato.jpg",
+      "alt": "Señor de la Peña de Yato",
+      "descripcion": "En el hermoso valle de Yato en Pampacolca, se encuentra grabada en una roca bendita la imagen milagrosa del Señor de la Peña de Yato."
+    },
+    {
+      "titulo": "Virgen del Carmen",
+      "img": "../img/virgenCarmen.jpg",
+      "alt": "Virgen del Carmen",
+      "descripcion": "La Fiesta de la Virgen del Carmen el 16 de julio en Pampacolca, Perú, es una celebración de fe, danza y tradición, con actividades como la entrada de la imagen, el día central y la bendición, prolongándose a veces hasta 5 días, incluyendo corridas de toros y la participación de mayordomos y bandas musicales.\n\nDetalles de la celebración\n\nFechas:\nAunque el día central es el 16 de julio, la festividad puede durar varios días, como el 15 y el 17 de julio, o extenderse hasta 5 días.\n\nActividades principales:\n- Día de entrada: El 15 de julio se recibe la imagen de la Virgen.\n- Día central: El 16 de julio es la celebración principal.\n- Día de bendición: Se realizan ceremonias donde se prepara a los mayordomos para la fiesta del año siguiente.\n\nDanza y cultura:\nLa fiesta incluye bailes y trajes tradicionales, así como danzas de la región.\n\nCorridas de toros:\nEn ocasiones, la celebración se prolonga con corridas de toros, un evento tradicional para el pueblo."
+    },
+    {
+      "titulo": "Carnavales",
+      "img": "../img/carnavalesP.jpg",
+      "alt": "Carnavales",
+      "descripcion": "Se trata de alegres y coloridas fiestas que se celebran en el distrito.\n\nCaracterísticas de los carnavales en Pampacolca\n\n- Tradición y cultura:\nSon parte de la identidad de la comunidad y se transmiten de generación en generación, combinando elementos de celebración y unión comunitaria.\n\n- Eventos festivos:\nIncluyen presentaciones artísticas, desfiles de comparsas (grupos de personas que bailan y cantan), música y la participación de la gente en las calles."
+    },
+    {
+      "titulo": "Señor de Huanca",
+      "img": "../img/senorHuanca.jpg",
+      "alt": "Señor de Huanca",
+      "descripcion": "Una festividad religiosa importante que se celebra el 14 de septiembre."
+    }
+]
+
 }
